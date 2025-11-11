@@ -134,23 +134,28 @@ export default function Home() {
                 <Link
                   key={index}
                   variants={itemVariants}
-                  className="group relative bg-white border border-gray-200 rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+                  className="group relative bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
                   data-testid={`highlight-card-${index}`}
                   href={item.link}
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-transparent opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300" />
                   <div className="relative z-10">
-                    <div className="w-16 h-16 bg-red-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                      <Icon className="w-8 h-8 text-white" />
+                    {/* Icon + Title Horizontal */}
+                    <div className="flex flex-row items-center gap-4 mb-4">
+                      <div className="w-16 h-16 bg-red-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <Icon className="w-8 h-8 text-white" />
+                      </div>
+                      <h3 className="font-sans text-xl font-semibold text-black">
+                        {item.title}
+                      </h3>
                     </div>
-                    <h3 className="font-display text-xl font-semibold text-black mb-3">
-                      {item.title}
-                    </h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">
+
+                    <p className="font-sans text-gray-600 text-sm  leading-relaxed">
                       {item.description}
                     </p>
                   </div>
                 </Link>
+
               );
             })}
           </motion.div>
@@ -287,7 +292,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="font-display text-4xl sm:text-5xl font-bold text-black mb-6">
+            <h2 className="font-sans text-4xl sm:text-5xl font-bold text-black mb-6">
               Why Choose Natrapharm?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -331,7 +336,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <h3 className="font-display text-2xl font-bold mb-2">{item.title}</h3>
+                  <h3 className="font-sans text-2xl font-bold mb-2">{item.title}</h3>
                   <p className="text-sm text-gray-200">{item.description}</p>
                 </div>
               </motion.div>
@@ -348,7 +353,7 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6">
+            <h2 className="font-sans text-4xl sm:text-5xl font-bold text-white mb-6">
               Ready to Partner With Us?
             </h2>
             <p className="text-lg text-white mb-10 max-w-4xl mx-auto">

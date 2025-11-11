@@ -8,48 +8,63 @@ export async function GET(request, { params }) {
   //Products
   if (route === '/products' || route === '/products/') {
     try {
-      const res = await fetch('https://api.jsonbin.io/v3/b/68fac834ae596e708f278633/latest', {
-        headers: {
-          'X-Master-Key': process.env.JSONBIN_KEY
-        },
-        cache: 'no-store'
-      })
+      const res = await fetch(
+        'https://api.jsonbin.io/v3/b/68fac834ae596e708f278633/latest',
+        {
+          headers: {
+            'X-Master-Key': process.env.JSONBIN_KEY,
+          },
+          cache: 'no-store',
+        }
+      );
   
-      const data = await res.json()
-      const products = data.record // array ng products
-
-      console.log(products)
+      const data = await res.json();
+      const products = data.record; // array ng products
   
-      const url = new URL(request.url)
-      const search = url.searchParams.get('search') || ''
-      const category = url.searchParams.get('category') || 'All'
-      const take = parseInt(url.searchParams.get('take') || '10', 10)
-      const skip = parseInt(url.searchParams.get('skip') || '0', 10)
+      const url = new URL(request.url);
+      const search = url.searchParams.get('search') || '';
+      const category = url.searchParams.get('category') || 'All';
+      const take = parseInt(url.searchParams.get('take') || '10', 10);
+      const skip = parseInt(url.searchParams.get('skip') || '0', 10);
   
-      let filtered = [...products]
+      // Filter products based on category & search
+      let filtered = [...products];
   
       if (category !== 'All') {
-        filtered = filtered.filter((p) => p.category.includes(category))
+        filtered = filtered.filter((p) =>
+          Array.isArray(p.category) ? p.category.includes(category) : false
+        );
       }
   
       if (search) {
-        const lowerSearch = search.toLowerCase()
+        const lowerSearch = search.toLowerCase();
         filtered = filtered.filter(
           (p) =>
             p.medicine_name.toLowerCase().includes(lowerSearch) ||
             p.brand_name.toLowerCase().includes(lowerSearch)
-        )
+        );
       }
   
-      const paginated = filtered.slice(skip, skip + take)
+      // Paginate filtered results
+      const paginated = filtered.slice(skip, skip + take);
+  
+      // Extract all unique categories from **all products** for front-end dropdown
+      const allCategoriesSet = new Set();
+      products.forEach((p) => {
+        if (Array.isArray(p.category)) {
+          p.category.forEach((c) => allCategoriesSet.add(c));
+        }
+      });
+      const allCategories = ['All', ...Array.from(allCategoriesSet)];
   
       return NextResponse.json({
-        total: filtered.length,
-        products: paginated
-      })
+        total: filtered.length, // total of matching products
+        products: paginated,
+        categories: allCategories, // send all categories to front-end
+      });
     } catch (err) {
-      console.error('Error fetching products:', err)
-      return NextResponse.json({ error: 'Failed to fetch products' }, { status: 500 })
+      console.error('Error fetching products:', err);
+      return NextResponse.json({ error: 'Failed to fetch products' }, { status: 500 });
     }
   }
   

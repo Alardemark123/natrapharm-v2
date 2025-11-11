@@ -2,159 +2,248 @@
 
 import { motion } from 'framer-motion';
 import ProductCard from '@/components/ProductCard';
-import { Search } from 'lucide-react';
-import { useState } from 'react';
+import { Search, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
-const products = [
-  {
-    name: 'Natrapharm Paracetamol 500mg',
-    category: 'Pain Relief',
-    description: 'Fast-acting pain relief and fever reducer for adults and children',
-    image: 'https://images.unsplash.com/photo-1611072965169-e1534f6f300c?crop=entropy&cs=srgb&fm=jpg&q=85',
-  },
-  {
-    name: 'Natrapharm Vitamin C 1000mg',
-    category: 'Vitamins & Supplements',
-    description: 'Immune system support with high-potency vitamin C',
-    image: 'https://images.unsplash.com/photo-1595432576728-94e0e94a7663?crop=entropy&cs=srgb&fm=jpg&q=85',
-  },
-  {
-    name: 'Natrapharm Antibiotic Plus',
-    category: 'Antibiotics',
-    description: 'Broad-spectrum antibiotic for bacterial infections',
-    image: 'https://images.unsplash.com/photo-1611072965169-e1534f6f300c?crop=entropy&cs=srgb&fm=jpg&q=85',
-  },
-  {
-    name: 'Natrapharm Cough Syrup',
-    category: 'Respiratory Care',
-    description: 'Soothing relief for cough and throat irritation',
-    image: 'https://images.unsplash.com/photo-1595432576728-94e0e94a7663?crop=entropy&cs=srgb&fm=jpg&q=85',
-  },
-  {
-    name: 'Natrapharm Multivitamins',
-    category: 'Vitamins & Supplements',
-    description: 'Complete daily nutrition with essential vitamins and minerals',
-    image: 'https://images.unsplash.com/photo-1611072965169-e1534f6f300c?crop=entropy&cs=srgb&fm=jpg&q=85',
-  },
-  {
-    name: 'Natrapharm Anti-Hypertensive',
-    category: 'Cardiovascular',
-    description: 'Blood pressure management for hypertension patients',
-    image: 'https://images.unsplash.com/photo-1595432576728-94e0e94a7663?crop=entropy&cs=srgb&fm=jpg&q=85',
-  },
-  {
-    name: 'Natrapharm Diabetes Care',
-    category: 'Diabetes Management',
-    description: 'Blood sugar control medication for diabetic patients',
-    image: 'https://images.unsplash.com/photo-1611072965169-e1534f6f300c?crop=entropy&cs=srgb&fm=jpg&q=85',
-  },
-  {
-    name: 'Natrapharm Probiotic Complex',
-    category: 'Digestive Health',
-    description: 'Gut health support with beneficial bacteria strains',
-    image: 'https://images.unsplash.com/photo-1595432576728-94e0e94a7663?crop=entropy&cs=srgb&fm=jpg&q=85',
-  },
-  {
-    name: 'Natrapharm Joint Relief',
-    category: 'Pain Relief',
-    description: 'Anti-inflammatory support for joint pain and arthritis',
-    image: 'https://images.unsplash.com/photo-1611072965169-e1534f6f300c?crop=entropy&cs=srgb&fm=jpg&q=85',
-  },
-];
 
-const categories = ['All', 'Pain Relief', 'Vitamins & Supplements', 'Antibiotics', 'Respiratory Care', 'Cardiovascular', 'Diabetes Management', 'Digestive Health'];
+const CategoryDropdown = ({
+  categories,
+  selectedCategory,
+  setSelectedCategory,
+}) => {
+  const [search, setSearch] = useState('');
+  const [open, setOpen] = useState(false);
+
+  const filteredCategories = categories.filter((c) =>
+    c.toLowerCase().includes(search.toLowerCase())
+  );
+
+  return (
+    <div className="relative w-full">
+      {/* Dropdown button */}
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full px-4 py-2 text-left bg-gray-100 rounded-full shadow-md flex justify-between items-center font-medium text-sm hover:bg-gray-200 transition"
+      >
+        {selectedCategory || 'Select Category'}
+        <span className="ml-2">{open ? '▲' : '▼'}</span>
+      </button>
+
+      {/* Dropdown list */}
+      {open && (
+        <div className="absolute z-50 mt-2 w-full bg-white border border-gray-200 rounded-xl shadow-lg max-h-64 overflow-auto">
+          {/* Search input */}
+          <div className="p-2">
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search categories..."
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
+            />
+          </div>
+
+          {/* Categories */}
+          <div className="flex flex-col gap-2 px-2 pb-2">
+            {filteredCategories.length > 0 ? (
+              filteredCategories.map((category) => (
+                <button
+                  key={category}
+                  onClick={() => {
+                    setSelectedCategory(category);
+                    setOpen(false);
+                  }}
+                  className={`px-4 py-2 rounded-full font-medium text-sm text-left transition-all duration-300 ${
+                    selectedCategory === category
+                      ? 'bg-red-600 text-white shadow-lg'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  {category}
+                </button>
+              ))
+            ) : (
+              <p className="text-gray-400 text-sm px-4 py-2">No categories found.</p>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export const DisplayProduct = () => {
+  const [products, setProducts] = useState([]);
+  const [total, setTotal] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [take, setTake] = useState(5);
+  const [skip, setSkip] = useState(0);
+  const [categories, setCategories] = useState([]);
+
+  const fetchProducts = async () => {
+    setLoading(true);
+    try {
+      const params = new URLSearchParams({
+        search: searchQuery,
+        category: selectedCategory,
+        take: take.toString(),
+        skip: skip.toString(),
+      });
+
+      const res = await fetch(`/api/products?${params.toString()}`);
+      const data = await res.json();
+
+      setProducts(data.products || []);
+      setTotal(data.total || 0);
+      setCategories(data.categories || ['All']);
+    } catch (err) {
+      console.error('Error fetching products:', err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchProducts();
+  }, [searchQuery, selectedCategory, take, skip]);
+
+  const totalPages = Math.ceil(total / take); 
+const currentPage = Math.floor(skip / take) + 1;
+
+  return (
+    <section className="py-20 bg-white">
+      <div className="max-w-[1600px] mx-auto px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          {/* LEFT SIDE */}
+          <div className="lg:col-span-3 flex flex-col gap-6">
+  {/* Search */}
+  <div className="relative">
+    <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#e12328]" />
+    <input
+      type="text"
+      placeholder="Search products..."
+      value={searchQuery}
+      onChange={(e) => {
+        setSearchQuery(e.target.value);
+        setSkip(0);
+      }}
+      className="w-full pl-12 pr-4 py-3 border border-[#e12328] rounded-full focus:outline-none focus:ring-2 focus:ring-[#e12328] focus:border-transparent text-base"
+    />
+  </div>
+
+  {/* Categories */}
+  <CategoryDropdown
+    categories={categories}
+    selectedCategory={selectedCategory}
+    setSelectedCategory={(cat) => {
+      setSelectedCategory(cat);
+      setSkip(0); // resets to first page
+    }}
+    // You may need to pass custom color classes inside CategoryDropdown for active/hover states
+  />
+
+  {/* Pagination */}
+  <div className="flex justify-between items-center mt-6">
+    <button
+      onClick={() => setSkip(Math.max(0, skip - take))}
+      disabled={currentPage === 1} // disable if first page
+      className="px-3 py-2 border border-[#e12328] text-[#e12328] rounded hover:bg-[#e12328] hover:text-white disabled:opacity-50 disabled:hover:bg-transparent disabled:hover:text-[#e12328] transition-colors"
+    >
+      <ChevronLeft className="w-4 h-4" />
+    </button>
+
+    <span className="text-[#e12328] font-medium">{currentPage}/{totalPages}</span>
+
+    <button
+      onClick={() => setSkip(Math.min(skip + take, (totalPages - 1) * take))}
+      disabled={currentPage === totalPages} // disable if last page
+      className="px-3 py-2 border border-[#e12328] text-[#e12328] rounded hover:bg-[#e12328] hover:text-white disabled:opacity-50 disabled:hover:bg-transparent disabled:hover:text-[#e12328] transition-colors"
+    >
+      <ChevronRight className="w-4 h-4" />
+    </button>
+  </div>
+</div>
+
+
+          {/* RIGHT SIDE */}
+          <div className="lg:col-span-9">
+            {loading ? (
+              <p className="text-center text-gray-500 py-20">Loading products...</p>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {products.map((product, index) => (
+                  <ProductCard key={index} product={product} />
+                ))}
+              </div>
+            )}
+
+            {products.length === 0 && !loading && (
+              <p className="text-center text-gray-500 py-20">No products found.</p>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 
 export default function Products() {
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  const [searchQuery, setSearchQuery] = useState('');
-
-  const filteredProducts = products.filter((product) => {
-    const matchesCategory = selectedCategory === 'All' || product.category === selectedCategory;
-    const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         product.category.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesCategory && matchesSearch;
-  });
 
   return (
     <div className="min-h-screen">
-      <section className="relative py-32 bg-gradient-to-br from-red-50 to-white overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle, #C62828 1px, transparent 1px)', backgroundSize: '50px 50px' }} />
-        </div>
-        <div className="max-w-screen-xl mx-auto px-6 relative z-10">
+      <section className="relative py-52 overflow-hidden ">
+            {/* Background Image */}
+            <div className="absolute inset-0 -z-10">
+              <Image
+                src="/background/product.png"
+                alt="Background"
+                fill
+                className="object-cover object-center"
+                // style={{ opacity: 0.25 }} // visible but subtle
+                priority
+              />
+              <div className="absolute inset-0 bg-white opacity-10" /> {/* softer overlay */}
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+      
+      
+      </section>
+
+      <section className="relative  overflow-hidden ">
+        <div className="max-w-screen-xl mx-auto px-6 relative z-10 mt-20">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-black mb-6">
-              Our Products
+            <h1 className="font-sans text-5xl sm:text-6xl lg:text-6xl font-bold text-black">
+            We provide <span className="text-[#e12328]">Quality Products</span>
             </h1>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Quality pharmaceutical products designed to meet the healthcare needs of every Filipino family.
-            </p>
+            <p className="text-lg text-gray-600 max-w-5xl mx-auto leading-relaxed mt-6">
+            Natrapharm provides bioequivalent medicines to ensure safety and efficacy.</p>
           </motion.div>
         </div>
       </section>
+      
 
-      <section className="py-20 bg-white">
-        <div className="max-w-screen-xl mx-auto px-6">
-          <div className="mb-12">
-            <div className="relative max-w-xl mx-auto mb-8">
-              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-              <input
-                type="text"
-                placeholder="Search products..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent text-base"
-                data-testid="product-search-input"
-              />
-            </div>
-
-            <div className="flex flex-wrap justify-center gap-3">
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setSelectedCategory(category)}
-                  className={`px-6 py-2 rounded-full font-medium text-sm transition-all duration-300 ${
-                    selectedCategory === category
-                      ? 'bg-red-600 text-white shadow-lg scale-105'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  }`}
-                  data-testid={`category-filter-${category.toLowerCase().replace(/\s+/g, '-')}`}
-                >
-                  {category}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: { opacity: 0 },
-              visible: {
-                opacity: 1,
-                transition: { staggerChildren: 0.1 },
-              },
-            }}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
-            {filteredProducts.map((product, index) => (
-              <ProductCard key={index} product={product} index={index} />
-            ))}
-          </motion.div>
-
-          {filteredProducts.length === 0 && (
-            <div className="text-center py-20">
-              <p className="text-lg text-gray-500">No products found matching your criteria.</p>
-            </div>
-          )}
-        </div>
-      </section>
+      <DisplayProduct />
     </div>
   );
 }

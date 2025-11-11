@@ -52,7 +52,7 @@ export default function Navbar() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2 }}
-            className="relative w-[150px] h-[50px] md:w-[180px] md:h-[60px]"
+            className="relative w-[230px] h-[90px] md:w-[230px] md:h-[90px]"
           >
             <Image
               src="/logo/logo.png"

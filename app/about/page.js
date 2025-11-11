@@ -47,12 +47,29 @@ export default function About() {
           alt="Background"
           fill
           className="object-cover object-center"
-          style={{ opacity: 0.25 }} // visible but subtle
+          // style={{ opacity: 0.25 }} // visible but subtle
           priority
         />
         <div className="absolute inset-0 bg-white opacity-10" /> {/* softer overlay */}
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      
 
+
+      </section>
+
+      <section className="relative py-52 overflow-hidden ">
   <div className="max-w-screen-xl mx-auto px-6 relative z-10">
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -60,8 +77,8 @@ export default function About() {
       transition={{ duration: 0.6 }}
       className="text-center"
     >
-      <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-black mb-6">
-      You Are At The <span className="text-[#e12328]">Heart</span> Of What <span className="text-[#e12328]">We Do</span>
+      <h1 className="font-sans text-5xl sm:text-6xl lg:text-6xl font-bold text-black mb-6">
+      You are at the <span className="text-[#e12328]">Heart</span> of What <span className="text-[#e12328]">We Do</span>
       </h1>
       <p className="text-lg text-gray-600 max-w-5xl mx-auto leading-relaxed">
       More than just a national organization nurturing healthcare, Natrapharm Inc. and its business affiliate, Patriot Pharmaceuticals Corporation, carry this genuine compassion for Filipinos. Being at the heart of what we do ---- in every quality product we provide, in every sincere service we offer, and in every reliable partnership we build ---- all these to fulfill our dream, our mission: To nurture healthcare and improve the life of every Filipino.
@@ -89,7 +106,7 @@ export default function About() {
         {/* Accent bar */}
         <div className="absolute -left-6 top-0 w-1 h-full bg-gradient-to-b from-[#e12328] to-[#e12328] rounded-full hidden lg:block" />
 
-        <h2 className="font-display text-4xl font-bold text-black mb-6 text-center lg:text-left">
+        <h2 className="font-sans text-4xl font-bold text-black mb-6 text-center lg:text-left">
           <p className="mb-4">VISION OF OUR FOUNDER</p>
           <span className="text-[#e12328]">MR. RUDI T. RUNES</span>
         </h2>
@@ -117,7 +134,7 @@ export default function About() {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="relative w-full max-w-sm mx-auto rounded-3xl overflow-hidden ring-2 ring-[#e12328]"
+        className="relative w-full max-w-sm mx-auto rounded-3xl overflow-hidden"
         // style={{
         //   boxShadow: '30px 30px 40px -10px rgb(255, 141, 141)', // softer right-side glow
         // }}
@@ -143,7 +160,7 @@ export default function About() {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="relative w-full max-w-sm mx-auto rounded-3xl overflow-hidden ring-2 ring-red-100"
+        className="relative w-full max-w-sm mx-auto rounded-3xl overflow-hidden"
         // style={{
         //   boxShadow: '-30px 30px 40px -10px rgb(255, 141, 141)', // custom shadow: left + down + blur
         // }}
@@ -170,7 +187,7 @@ export default function About() {
       >
         <div className="absolute -left-6 top-0 w-1 h-full bg-gradient-to-b from-[#e12328] to-[#e12328] rounded-full hidden lg:block" />
 
-        <h2 className="font-display text-4xl font-bold text-black mb-6 text-center lg:text-left">
+        <h2 className="font-sans text-4xl font-bold text-black mb-6 text-center lg:text-left">
           <p className="mb-4">MESSAGE OF THE CHAIRMAN AND PRESIDENT</p>
           <span className="text-[#e12328]">MR. RUDI ANGELO P. RUNES</span>
         </h2>
@@ -201,7 +218,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="font-display text-4xl sm:text-5xl font-bold text-black mb-6 italic">
+            <h2 className="font-sans text-4xl sm:text-5xl font-bold text-black mb-6 italic">
             "Improving Lives Through <span className="font-bold italic text-[#e12328]">Quality Healthcare</span>."
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">

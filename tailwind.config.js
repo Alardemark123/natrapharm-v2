@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			inter: ['var(--font-inter)', 'sans-serif'],
+			playfair: ['var(--font-playfair)', 'serif'],
+		  },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -75,8 +79,13 @@ module.exports = {
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
-  		}
+  		},
+		  
+		
   	}
   },
   plugins: [require("tailwindcss-animate")],
 };
+
+
+  
