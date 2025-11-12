@@ -1,0 +1,525 @@
+[
+    {
+      "id": "c1f5a9d2-8b3e-4d8a-9f6b-2c8e1a7f0a5b",
+      "product_website": "",
+      "slug": "atorvast-natrapharm",
+      "owner": "Natrapharm Products",
+      "category": ["Antihyperlipidemia"],
+      "medicine_name": "Atorvast‑Natrapharm®",
+      "brand_name": "Atorvast‑Natrapharm®",
+      "generic_name": "Atorvastatin",
+      "description": "Used to lower cholesterol and triglycerides in adults with high cholesterol levels.",
+      "image": "/products/first_twelve/atorvast-natrapharm.png",
+      "regulatory": "℞",
+      "indication": [
+        "Reduce LDL or bad cholesterol, apolipoprotein B & triglycerides. Increase HDL or good cholesterol in the treatment of hyperlipidemia including hypercholesterolemia & combined (mixed) hyperlipidemia (type IIa & IIb hyperlipoproteinemia), hypertriglyceridemia (type IV) & dysbetalipoproteinemia (type III). Adjunctive therapy in patients with homozygous familial hypercholesterolemia who have LDL-receptor function."
+      ],
+      "dosage_and_administration": [
+        "As prescribed by physician. Usually once daily."
+      ],
+      "formulation": [
+        {
+          "logo": "/medicine/CARDIOVASCULAR_PRODUCTS/LOGOS/ATORVASTATIN.png",
+          "note": "Each film-coated tablet contains",
+          "components": [
+            { "name": "Primary hypercholesterolemia & combined (mixed) dyslipidemia including familial combined hyperlipidemia Starting dose", "dosage": "10mg, 20mg" },
+            { "name": "Patients requiring large reduction in LDL-cholesterol (>45%) Start at 40 mg. Dose range", "dosage": "10mg, 80mg" },
+            { "name": "Adjust dose `at intervals of 2-4 wk up to a max of 80 mg/day. Severe dyslipidemia including homozygous & heterozygous familial hypercholesterolemia & dysbetalipoproteinemia (type III) Up to 80 mg/day. Heterozygous familial hypercholesterolemia Childn 10-17 yr Starting dose", "dosage": "10mg, Max: 20mg/day" }
+          ]
+        }
+      ],
+      "administration": [
+        "Take with or without food. Avoid excessive consumption (>1 L/day) of grapefruit juice."
+      ],
+      "contraindication": [
+        "Active liver disease or unexplained persistent elevations of serum transaminases >3x ULN. Pregnancy & lactation."
+      ],
+      "special_precaution": [
+        "Monitor lipid levels periodically. Discontinue use if markedly elevated creatine kinase levels & hypersensitivity occurs, if myopathy is diagnosed or suspected, during fusidic acid therapy & having risk factor predisposing to development of renal failure secondary to rhabdomyolysis. Patients w/ predisposing factors for myopathy/rhabdomyolysis. Concomitant use w/ CYP3A4 inhibitors; digoxin; drugs that may decrease endogenous steroid hormone levels (eg, ketoconazole, spironolactone, cimetidine). Consider risk of hemorrhagic stroke prior to treatment in patients w/ recent (1-6 mth) stroke or transient ischemic attack. Decrease in myocardial ubiquinone (CoQ10) levels may lead to impaired cardiac function in CHF patients. Severe renal impairment. Perform liver function test prior to treatment & periodically thereafter. Ped patients except childn 10-17 yr w/ heterozygous familial hypercholesterolemia. Elderly ≥70 yr."
+      ],
+      "adverse_reaction": [
+        "Diarrhea, dyspepsia, nausea, constipation, flatulence; asthenia; nasopharyngitis; abnormal liver function test, increased blood creatine phosphokinase, hyperglycemia; arthralgia, pain in extremity, musculoskeletal pain, muscle spasms, myalgia, joint swelling; headache; pharyngolaryngeal pain, epistaxis.y"
+      ],
+      "interactions": [
+        "CYP3A4 inhibitors eg, grapefruit juice, fibric acid derivatives (gemfibrozil, fenofibrate, other fibrates, niacin), macrolides (erythromycin, clarithromycin), immunosuppressants (cyclosporine), azole antifungals (itraconazole, ketoconazole), PIs (nelfinavir, lopinavir, ritonavir, saquinavir), antidepressants, nefazodone; CYP3A4 inducers eg, efavirenz, rifampin; colestipol; digoxin; OCs & hormone replacement therapy eg, norethindone, ethinylestradiol; Al- & Mg-containing antacids; diltiazem; fusidic acid."
+      ],
+      "presentation_packaging": [
+        "Film Coated tablet 20 mg x 10's, 100's. 40 mg x 10's, 100's. 80 mg x 10's, 100's"
+      ]
+    },
+    {
+      "id": "d3a2b7e1-9f0c-4d1a-8e2b-5f6a7d9b1c2d",
+      "product_website": "",
+      "slug": "azithro-natrapharm",
+      "owner": "Natrapharm Products",
+      "category": ["Antibacterial"],
+      "medicine_name": "Azithro‑Natrapharm®",
+      "brand_name": "Azithro‑Natrapharm®",
+      "generic_name": "Azithromycin",
+      "description": "Macrolide antibiotic used for various bacterial infections.",
+      "image": "/products/first_twelve/azithro-natrapharm.png",
+      "regulatory": "℞",
+      "indication": [
+        "Treatment of respiratory tract infections including otitis media; uncomplicated genital, skin & soft tissue infections. Prophylaxis & as a component in the treatment regimen of Mycobacterium avium complex (MAC)."
+      ],
+      "dosage_and_administration": [
+        "Adult 500 mg as a single daily dose for 3 days or initially 500 mg followed by 250 mg daily for a further 4 days. Chancroid & uncomplicated genital infections caused by Chlamydia trachomatis 1 g as a single dose. Uncomplicated gonorrhea 2 g as a single dose. Granuloma inguinale Initially 1 g followed by 500 mg daily or 1 g once weekly for at least 3 wk. Prophylaxis of disseminated MAC infections 1.2 g once weekly. Mild or moderate typhoid caused by multidrug-resistant strains 500 mg once daily for 7 days."
+      ],
+      "administration": [
+        "Take with or without food. May be taken w/ meals to reduce GI discomfort."
+      ],
+      "formulation": [
+        {
+          "logo": "/products/first_twelve/azithro-natrapharm.png",
+          "note": "Each film-coated tablet contains:",
+          "components": [
+            { "name": "Azithromycin", "dosage": "500mg tablet" }
+          ]
+        }
+      ],
+      "contraindication": [
+        "Severe hepatic impairment. Concomitant use w/ pimozide."
+      ],
+      "special_precaution": [
+        "Hepatic or renal impairment."
+      ],
+      "adverse_reaction": [
+        "GI disturbances."
+      ],
+      "interactions": [
+        "Aluminum or Magnesium-containing antacids; lovastatin or other HMG-CoA reductase inhibitors; quinine; nelfinavir; cyclosporin, digoxin, ergot alkaloids, phenytoin; pimozide."
+      ],
+      "presentation_packaging": [
+        "Tablet 500 mg x 3's"
+      ]
+    },
+    {
+      "id": "f2b6e8c4-1d3a-4c7f-9b0a-2d5e6f7a8b9c",
+      "product_website": "",
+      "slug": "brezu",
+      "owner": "Natrapharm Products",
+      "category": ["Bronchodilator", "Anti-Allergy"],
+      "medicine_name": "Brezu®",
+      "brand_name": "Brezu®",
+      "generic_name": "",
+      "description": "Relieves bronchospasm in asthma and COPD.",
+      "image": "/products/first_twelve/brezu.png",
+      "regulatory": "",
+      "indication": [
+        "Relief of dyspnea & other symptoms caused by resp obstructive disturbance in bronchial asthma, chronic bronchitis, & pulmonary emphysema. Acute bronchitis."
+      ],
+      "dosage_and_administration": [
+        "Adult 50 mcg (10 mL) once daily at bedtime or bid. Children ≥6 yr 25 mcg (5 mL) once daily at bedtime or bid, <6 yr 1.25 mcg/kg (0.25 mL/kg) bid or tid."
+      ],
+      "administration": [],
+      "formulation": [
+        {
+          "logo": "/products/first_twelve/brezu.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Brezu®", "dosage": "5mcg/mL syrup" }
+          ]
+        }
+      ],
+      "contraindication": [],
+      "special_precaution": [
+        "Patients w/ hyperthyroidism, HTN, heart disease, DM. Not a substitute for inhaled corticosteroids & other anti-inflammatory agents. Instruct patient/guardian not to abruptly reduce the dosage or stop use & switch to monotherapy unless instructed by physician. May develop acute asthma episodes during long-term management of bronchial asthma, chronic bronchitis & pulmonary emphysema. Continuous administration in excessive amounts may cause cardiac arrhythmia & arrest. W/draw the drug 12 hr prior to allergen tests. Pregnancy. Interrupt treatment during lactation. Low birth wt infants & neonates. Elderly."
+      ],
+      "adverse_reaction": [
+        "Shock or anaphylactoid reaction; significant decrease in serum K levels. Palpitations, tachycardia; tremor, headache; nausea, vomiting; skin rash."
+      ],
+      "interactions": [
+        "Potential induction of arrhythmias w/ catecholamines (eg, adrenaline & isoprenaline). Decrease in serum K levels & aggravate CV adverse reactions w/ xanthine derivatives (eg, theophylline, aminophylline & diprophylline). May excessively decrease serum K levels w/ corticosteroids (eg, betamethasone, prednisolone & hydrocortisone Na succinate) & diuretics (eg, furosemide)."
+      ],
+      "presentation_packaging": [
+        "Syrup 5 mcg/mL x 60 mL"
+      ]
+    },
+    {
+      "id": "a7d1c3b8-2f0e-4d6a-9b5d-1e3f7c4a9b2e",
+      "product_website": "",
+      "slug": "curazid-forte",
+      "owner": "Natrapharm Products",
+      "category": ["Antituberculosis"],
+      "medicine_name": "Curazid® Forte",
+      "brand_name": "Curazid® Forte",
+      "generic_name": "Isoniazid + Pyridoxine HCl",
+      "description": "Used for the treatment of tuberculosis in the intensive phase.",
+      "image": "/products/first_twelve/curazid-forte.png",
+      "regulatory": "℞",
+      "indication": [
+        "Primary treatment & prophylaxis of pulmonary & extrapulmonary Tuberculosis."
+      ],
+      "dosage_and_administration": [
+        "Adult 300 mg daily. Childn 5 mg/kg daily. Max: 300 mg daily. Intermittent therapy: 10 mg/kg 3x a wk or 15 mg/kg 2x a wk. Max: 900 mg. TB prophylaxis 300 mg daily for at least 6 mth-1 yr."
+      ],
+      "formulation": [
+        {
+          "logo": "/products/first_twelve/curazid-forte.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Curazid® Forte", "dosage": "Per 5 mL INH 200 mg, pyridoxine HCl (vit B6) 10 mg" }
+          ]
+        }
+      ],
+      "administration": [],
+      "contraindication": [],
+      "special_precaution": [
+        "Convulsive disorders, history of psychosis, impaired liver or kidney function; patients at risk of neuropathy or pyridoxine deficiency eg, diabetic, alcoholic, malnourished, uremic & HIV infection. Discontinue use if symptoms of hepatitis occur. Patients w/ preexisting liver disease. Alcoholic patients. Pregnancy."
+      ],
+      "adverse_reaction": [
+        "Peripheral neuritis, psychotic reactions, convulsions & optic neuritis; various anemias, agranulocytosis, thrombocytopenia, eosinophilia; nausea, vomiting, pellagra, hyperglycemia, lupus-like syndrome, urinary retention, gynecomastia."
+      ],
+      "interactions": [],
+      "presentation_packaging": ["Syrup 120 mL"]
+    },
+    {
+      "id": "b4c7f9e0-5d1a-4b2f-9a3c-7d8e9f6b2c1d",
+      "product_website": "",
+      "slug": "felodipin-natrapharm",
+      "owner": "Natrapharm Products",
+      "category": ["Antihypertensive", "Anti-anginal"],
+      "medicine_name": "Felodipin‑Natrapharm®",
+      "brand_name": "Felodipin‑Natrapharm®",
+      "generic_name": "Felodipine",
+      "description": "Calcium channel blocker used for hypertension and angina.",
+      "image": "/products/first_twelve/felodipin-natrapharm.png",
+      "regulatory": "℞",
+      "indication": [
+        "Treatment of Hypertension"
+      ],
+      "dosage_and_administration": [
+        "Initially 5 mg once daily, may be increased up to a max of 10 mg once daily after at least 2 weeks"
+      ],
+      "administration": ["Take without food or with a light meal. Swallow whole, do not chew/divide. Avoid grapefruit juice."],
+      "formulation": [
+        {
+          "logo": "/products/first_twelve/felodipin-natrapharm.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Felodipine", "dosage": "5mg tablet" }
+          ]
+        }
+      ],
+      "contraindication": [
+        "Stroke w/in the last 6 mth, CV shock, valvular heart disease (higher-grade aortic or moral stenosis), hypertrophic obstructive cardiomyopathy, unstable angina pectoris, acute MI w/in the last 8 wk, 2nd- & 3rd-degree AV block, CHF, severe hepatic & renal impairment. Pregnancy. Childn."
+      ],
+      "special_precaution": [
+        "Conduction disorders, heart failure, tachycardia, hemodynamically relevant aortic &/or mitral valve stenosis. Mild to moderate hepatic impairment. Avoid abrupt w/drawal. May impair ability to drive or operate machinery. Lactation."
+      ],
+      "adverse_reaction": [
+        "Flushing, headache, tinnitus."
+      ],
+      "interactions": [
+        "Other BP lowering drugs, TCAs; cimetidine, erythromycin, itraconazole, ketoconazole, grapefruit; carbamazepine, phenytoin, barbiturates"
+      ],
+      "presentation_packaging": [
+        "Tablet 5 mg x 100's"
+      ]
+    },
+    {
+      "id": "c9a8b1d2-3e4f-4b5a-8c1d-7f9a2b3c4d5e",
+      "product_website": "",
+      "slug": "fixcom-2",
+      "owner": "Natrapharm Products",
+      "category": ["Antituberculosis"],
+      "medicine_name": "Fixcom® 2",
+      "brand_name": "Fixcom® 2",
+      "generic_name": "Rifampicin + Isoniazid",
+      "description": "A fixed-dose combination used for treatment of pulmonary and extrapulmonary tuberculosis.",
+      "image": "/products/first_twelve/fixcom-2.png",
+      "regulatory": "℞",
+      "indication": [
+        "For treatment of pulmonary and extrapulmonary tuberculosis."
+      ],
+      "dosage_and_administration": [
+        "Fixcom 2 Patient weighing >71 kg 5 tab/day in 4 mth. 55-70 kg 4 tab/day in 4 mth. 38-54 kg 3 tab/day in 4 mth"
+      ],
+      "formulation": [
+        {
+          "logo": "/products/first_twelve/fixcom-2.png",
+          "note": "Each film-coated tablet contains:",
+          "components": [
+            { "name": "Rifampicin", "dosage": "150 mg" },
+            { "name": "Isoniazid", "dosage": "75 mg" }
+          ]
+        }
+      ],
+      "administration": ["Take 1 hr before or 2 hr after meals"],
+      "contraindication": [
+        "Rifampicin: Patients w/ jaundice. Ethambutol: Optic neuritis"
+      ],
+      "special_precaution": [
+        "Pregnancy & lactation. Rifampicin: Monitor liver function & blood count. Preexisting liver disease. W/draw therapy when thrombocytopenia, purpura, hemolytic anemia or renal failure occur. INH: Patients w/ convulsive disorders, history of psychosis, hepatic or renal dysfunction. Patients at risk of neuropathy or pyridoxine deficiency including diabetics, alcoholics, malnourished, uremic, pregnant or infected w/ HIV. Discontinue upon manifestation of symptoms of hepatitis eg, malaise, fatigue, anorexia, nausea & elevated serum AST conc. Perform periodic eye exam. Slow acetylator patients. Ethambutol: Patients w/ visual defects. Discontinue when visual disturbances arise. Reduce dosage in patients w/ impaired kidney function. Childn. Elderly.Fixcom 2 INH: Monitor serum conc of hepatic transaminases in patients w/ preexisting chronic liver disease. Additional pyridoxine should be given in patients at risk of peripheral neuropathy, chronic alcohol dependence or diabetes. Reduced dose of anticonvulsants when given concurrently. Rifampicin: Renal impairment, haemolysis or thrombocytopenia. Alcohol-dependent or hepatic disease. May produce reddish coloration of urine, tears, saliva & sputum & contact lenses may irreversibly stained."
+      ],
+      "adverse_reaction": [
+        "Rifampicin: Cutaneous syndrome, flu syndrome. GI disturbances & bleeding, erosive gastritis. Ulcerative, eosinophilic & pseudomembranous colitis. Transient liver function abnormalities, hepatitis, thrombocytopenia, purpura, eosinophilia, leukopenia, hemolytic anemia, renal failure, menstrual disturbances. Headache, drowsiness, ataxia, dizziness, numbness, edema, myopathy, muscular weakness. Orange-red discoloration of the urine & other body fluids. INH: Peripheral neuritis, psychotic reactions & convulsions, increase in liver enzymes, hepatitis, anemia, agranulocytosis, thrombocytopenia, eosinophilia, skin eruption, fever, vasculitis, nausea, vomiting, pellagra, purpura, hyperglycemia, lupus-like syndrome, urinary retention & gynecomastia. Ethambutol: Retrobulbar neuritis, visual field constriction, central or peripheral scotoma, green-red color blindedness. Confusion, disorientation, hallucination, headache, dizziness, malaise, jaundice, transient liver function, peripheral neuritis, thrombocytopenia, pulmonary infiltrates, eosinophilia, GI disturbances. Hypersensitivity reactions.Fixcom 2 Itching, skin rash; jaundice; confusion. INH: Burning sensation of the feet. Rifampicin: Shock, purpura, acute renal failure. Anorexia, nausea, abdominal pain; orange/red urine"
+      ],
+      "interactions": [
+        "Rifampicin: Antacids, anticholinergics, opioids, ketoconazole, prep containing bentonite. INH: Hepatotoxic drugs, carbamazepine, ethosuximide, phenytoin, diazepam, triazolam, chlorzoxazone, theophylline, enflurane, clofazimine, cycloserine, warfarin, alcohol, Al-containing antacids. Fixcom 2 INH: Raise plasma conc of phenytoin & carbamazepine. Impaired absorption w/ Al hydroxide. Rifampicin: Hepatic enzyme induction of corticosteroids, steroid contraceptives, oral hypoglycemics, oral anticoagulants, phenytoin, cimetidine, cyclosporine & digitalis glycosides. Reduced effectiveness of OC. Increased drug toxicity w/ antiretroviral drugs."
+      ],
+      "presentation_packaging": [
+        "Fixcom 2 Film coated tablet 80's"
+      ]
+    },
+    {
+        "id": "7b9d3f5a-21c4-4e3f-bf90-abcdef123456",
+        "product_website": "",
+        "slug": "fixcom-3",
+        "owner": "Natrapharm Products",
+        "category": ["Antituberculosis"],
+        "medicine_name": "Fixcom® 3",
+        "brand_name": "Fixcom® 3",
+        "generic_name": "Rifampicin + Isoniazid + Ethambutol",
+        "description": "Fixed-dose combination used for treatment of pulmonary and extrapulmonary tuberculosis.",
+        "image": "/products/first_twelve/fixcom-3.png",
+        "regulatory": "℞",
+        "indication": [
+          "For maintenance phase treatment of pulmonary & extrapulmonary TB."
+        ],
+        "dosage_and_administration": [
+          "Fixcom 3 Patient weighing >70 kg 5 tab/day, 55-70 kg 4 tab/day, <55 kg 3 tab/day. Duration: 4-6 mth"
+        ],
+        "formulation": [
+          {
+            "logo": "/products/first_twelve/fixcom-3.png",
+            "note": "Each film-coated tablet contains:",
+            "components": [
+              { "name": "Rifampicin", "dosage": "150 mg" },
+              { "name": "Isoniazid", "dosage": "75 mg" },
+              { "name": "Ethambutol", "dosage": "275 mg" }
+            ]
+          }
+        ],
+        "contraindication": [
+          "Rifampicin: Patients with jaundice",
+          "Ethambutol: Optic neuritis"
+        ],
+        "special_precaution": [
+          "Pregnancy & lactation. Rifampicin: Monitor liver function & blood count. Preexisting liver disease. W/draw therapy when thrombocytopenia, purpura, hemolytic anemia or renal failure occur. INH: Patients w/ convulsive disorders, history of psychosis, hepatic or renal dysfunction. Patients at risk of neuropathy or pyridoxine deficiency including diabetics, alcoholics, malnourished, uremic, pregnant or infected w/ HIV. Discontinue upon manifestation of symptoms of hepatitis eg, malaise, fatigue, anorexia, nausea & elevated serum AST conc. Perform periodic eye exam. Slow acetylator patients. Ethambutol: Patients w/ visual defects. Discontinue when visual disturbances arise. Reduce dosage in patients w/ impaired kidney function. Childn. Elderly."
+        ],
+        "adverse_reaction": [
+          "Rifampicin: Cutaneous syndrome, flu syndrome. GI disturbances & bleeding, erosive gastritis. Ulcerative, eosinophilic & pseudomembranous colitis. Transient liver function abnormalities, hepatitis, thrombocytopenia, purpura, eosinophilia, leukopenia, hemolytic anemia, renal failure, menstrual disturbances. Headache, drowsiness, ataxia, dizziness, numbness, edema, myopathy, muscular weakness. Orange-red discoloration of the urine & other body fluids. INH: Peripheral neuritis, psychotic reactions & convulsions, increase in liver enzymes, hepatitis, anemia, agranulocytosis, thrombocytopenia, eosinophilia, skin eruption, fever, vasculitis, nausea, vomiting, pellagra, purpura, hyperglycemia, lupus-like syndrome, urinary retention & gynecomastia. Ethambutol: Retrobulbar neuritis, visual field constriction, central or peripheral scotoma, green-red color blindedness. Confusion, disorientation, hallucination, headache, dizziness, malaise, jaundice, transient liver function, peripheral neuritis, thrombocytopenia, pulmonary infiltrates, eosinophilia, GI disturbances. Hypersensitivity reactions."
+        ],
+        "interactions": [
+          "Rifampicin: Antacids, anticholinergics, opioids, ketoconazole, prep containing bentonite. INH: Hepatotoxic drugs, carbamazepine, ethosuximide, phenytoin, diazepam, triazolam, chlorzoxazone, theophylline, enflurane, clofazimine, cycloserine, warfarin, alcohol, Al-containing antacids. Fixcom 2 INH: Raise plasma conc of phenytoin & carbamazepine. Impaired absorption w/ Al hydroxide. Rifampicin: Hepatic enzyme induction of corticosteroids, steroid contraceptives, oral hypoglycemics, oral anticoagulants, phenytoin, cimetidine, cyclosporine & digitalis glycosides. Reduced effectiveness of OC. Increased drug toxicity w/ antiretroviral drugs."
+        ],
+        "presentation_packaging": [
+          "Fixcom 3 Film coated tablet 80's"
+        ]
+    },
+    {
+    "id": "8c4e5f6d-32b1-4e7f-a0b9-abcdef123457",
+    "product_website": "",
+    "slug": "fixcom-4",
+    "owner": "Natrapharm Products",
+    "category": ["Antituberculosis"],
+    "medicine_name": "Fixcom® 4",
+    "brand_name": "Fixcom® 4",
+    "generic_name": "Rifampicin + Isoniazid + Pyrazinamide + Ethambutol",
+    "description": "Used in the treatment of pulmonary and extrapulmonary tuberculosis for intensive and continuation phases.",
+    "image": "/products/first_twelve/fixcom-4.png",
+    "regulatory": "℞",
+    "indication": [
+        "For Pulmonary & extrapulmonary TB"
+    ],
+    "dosage_and_administration": [
+        "Fixcom 4 Patient weighing >70 kg 5 tab/day, 55-70 kg 4 tab/day, <55 kg 3 tab/day. Duration: 2 mth."
+    ],
+    "administration": ["Take 1 hr before or 2 hr after meals"],
+    "formulation": [
+        {
+        "logo": "/products/first_twelve/fixcom-4.png",
+        "note": "Each tablet contains:",
+        "components": [
+            { "name": "Rifampicin", "dosage": "150 mg" },
+            { "name": "Isoniazid", "dosage": "75 mg" },
+            { "name": "Pyrazinamide", "dosage": "400 mg" },
+            { "name": "Ethambutol", "dosage": "275 mg" }
+        ]
+        }
+    ],
+    "contraindication": [
+        "Fixcom 4 Pyrazinamide: Liver damage, acute gout or hyperuricemia."
+    ],
+    "special_precaution": [
+        "Pregnancy & lactation. Rifampicin: Monitor liver function & blood count. Preexisting liver disease. W/draw therapy when thrombocytopenia, purpura, hemolytic anemia or renal failure occur. INH: Patients w/ convulsive disorders, history of psychosis, hepatic or renal dysfunction. Patients at risk of neuropathy or pyridoxine deficiency including diabetics, alcoholics, malnourished, uremic, pregnant or infected w/ HIV. Discontinue upon manifestation of symptoms of hepatitis eg, malaise, fatigue, anorexia, nausea & elevated serum AST conc. Perform periodic eye exam. Slow acetylator patients. Ethambutol: Patients w/ visual defects. Discontinue when visual disturbances arise. Reduce dosage in patients w/ impaired kidney function. Childn. Elderly. Fixcom 4 Pyrazinamide: Patients w/ a history of gout; impaired renal function. Increased difficulty in controlling DM."
+    ],
+    "adverse_reaction": [
+        "Rifampicin: Cutaneous syndrome, flu syndrome. GI disturbances & bleeding, erosive gastritis. Ulcerative, eosinophilic & pseudomembranous colitis. Transient liver function abnormalities, hepatitis, thrombocytopenia, purpura, eosinophilia, leukopenia, hemolytic anemia, renal failure, menstrual disturbances. Headache, drowsiness, ataxia, dizziness, numbness, edema, myopathy, muscular weakness. Orange-red discoloration of the urine & other body fluids. INH: Peripheral neuritis, psychotic reactions & convulsions, increase in liver enzymes, hepatitis, anemia, agranulocytosis, thrombocytopenia, eosinophilia, skin eruption, fever, vasculitis, nausea, vomiting, pellagra, purpura, hyperglycemia, lupus-like syndrome, urinary retention & gynecomastia. Ethambutol: Retrobulbar neuritis, visual field constriction, central or peripheral scotoma, green-red color blindedness. Confusion, disorientation, hallucination, headache, dizziness, malaise, jaundice, transient liver function, peripheral neuritis, thrombocytopenia, pulmonary infiltrates, eosinophilia, GI disturbances. Hypersensitivity reactions.Fixcom 4 Pyrazinamide: Hepatotoxicity."
+    ],
+    "interactions": [
+        "Rifampicin: Antacids, anticholinergics, opioids, ketoconazole, prep containing bentonite. INH: Hepatotoxic drugs, carbamazepine, ethosuximide, phenytoin, diazepam, triazolam, chlorzoxazone, theophylline, enflurane, clofazimine, cycloserine, warfarin, alcohol, Al-containing antacids.Fixcom 4 Pyrazinamide: Probenecid."
+    ],
+    "presentation_packaging": [
+        "Fixcom 4 Film coated tablet 80's"
+    ]
+    },
+    {
+    "id": "9d4f5a6b-45c2-4f8e-b1c0-abcdef123458",
+    "product_website": "",
+    "slug": "glicla-natrapharm",
+    "owner": "Natrapharm Products",
+    "category": ["Antidiabetic Agent"],
+    "medicine_name": "Glicla-Natrapharm®",
+    "brand_name": "Glicla-Natrapharm®",
+    "generic_name": "Gliclazide",
+    "description": "Used to control blood sugar in adults with type 2 diabetes mellitus.",
+    "image": "/products/first_twelve/glicla-natrapharm.png",
+    "regulatory": "℞",
+    "indication": [
+        "Treatment of type 2 Diabetes Mellitus."
+    ],
+    "dosage_and_administration": [
+        "Initially 30 mg once daily. May be increased up to a max of 120 mg daily if necessary."
+    ],
+    "administration": ["Take with food"],
+    "formulation": [
+        {
+        "logo": "/products/first_twelve/glicla-natrapharm.png",
+        "note": "Each tablet contains:",
+        "components": [
+            { "name": "Gliclazide", "dosage": "30mg tablet" }
+        ]
+        }
+    ],
+    "contraindication": [
+        "Type 1 DM. Patients w/ ketoacidosis, severe infections, trauma or other severe conditions where drug is unlikely to control hyperglycemia. Severe hepatic & renal impairment. Porphyria. Pregnancy & lactation"
+    ],
+    "special_precaution": [
+        "Monitor blood glucose conc carefully in patients w/ renal impairment."
+    ],
+    "adverse_reaction": [
+        "GI disturbances eg, nausea, vomiting, heartburn, anorexia, diarrhea & metallic taste; increased appetite, wt gain; skin rashes, pruritus, photosensitivity"
+    ],
+    "interactions": [],
+    "presentation_packaging": [
+        "Modified Release tablet 30 mg x 15's, 60's."
+    ]
+    },
+    {
+    "id": "ae5f6d7b-56d3-4f9a-c2b1-abcdef123459",
+    "product_website": "",
+    "slug": "heraclene-natrapharm",
+    "owner": "Natrapharm Products",
+    "category": ["Vitamins/Mineral", "Appetite Stimulant"],
+    "medicine_name": "Heraclene® / Heraclene® Forte",
+    "brand_name": "Heraclene® / Heraclene® Forte",
+    "generic_name": "",
+    "description": "Used to stimulate appetite and support general nutrition.",
+    "image": "/products/first_twelve/heraclene-natrapharm.png",
+    "regulatory": "℞",
+    "indication": [
+        "Premature babies, low birth wt, retarded growth, poor appetite in infant, childn & adult, adjuvant to treatment of TB & other chronic ailments, convalescence from acute infection or surgery, faulty nutrition in older people."
+    ],
+    "dosage_and_administration": [
+        "Heraclene Adult 3 cap. Childn & adolescent 2-3 cap. Premature babies & infant 1 cap. Heraclene Forte 1 cap. All doses to be taken daily."
+    ],
+    "administration": [],
+    "formulation": [
+        {
+        "logo": "/products/first_twelve/heraclene-natrapharm.png",
+        "note": "Each capsule contains:",
+        "components": [
+            { "name": "Heraclene® / Heraclene® Forte", "dosage": "1mg , 3mg capsule" }
+        ]
+        }
+    ],
+    "contraindication": [],
+    "special_precaution": [
+        "Gastrointestinal (GI) condition; Some GI conditions, such as ileal disease or surgical removal of part of intestine, can reduce the amount of dibencozide that is absorbed from the intestine."
+    ],
+    "adverse_reaction": [],
+    "interactions": [
+        "Dibencozide is a form of Vitamin B12. Vitamin B12 is important for producing new blood cells. Chloramphenicol might decrease new blood cells. Taking chloramphenicol for a long time might decrease the effects of dibencozide on new blood cells."
+    ],
+    "presentation_packaging": [
+        "Heraclene cap 1 mg x 100's . Heraclene Forte cap 3 mg x 48's ."
+    ]
+    },
+    {
+    "id": "bf6a7e8c-67d4-4f0b-d3c2-abcdef123460",
+    "product_website": "",
+    "slug": "i-max-patriot",
+    "owner": "Patriot Pharmaceuticals Corp. Products",
+    "category": ["Antidiabetic"],
+    "medicine_name": "I-max®",
+    "brand_name": "I-max®",
+    "generic_name": "Metformin HCl",
+    "description": "Combination oral hypoglycemic agent used to control blood sugar in type 2 diabetes.",
+    "image": "/products/first_twelve/i-max.png",
+    "regulatory": "℞",
+    "indication": [
+        "As monotherapy or in combination w/ a sulfonylurea in Non-Insulin-Dependent Diabetes Mellitus (NIDDM) not responding to dietary modification. Adjuvant in type 1 diabetics or insulin deficient patients who are not adequately controlled w/ insulin."
+    ],
+    "dosage_and_administration": [
+        "Initially 500 mg three times a day. Dose may be gradually increased to max 3 g daily."
+    ],
+    "administration": ["Take with food"],
+    "formulation": [
+        {
+        "logo": "/products/first_twelve/i-max.png",
+        "note": "Each tablet contains:",
+        "components": [
+            { "name": "Metformin", "dosage": "500mg" }
+        ]
+        }
+    ],
+    "contraindication": [
+        "Renal impairment, liver or heart failure, recent MI, dehydration, alcoholism & other conditions predisposing to lactic acidosis"
+    ],
+    "special_precaution": [
+        "Not recommended during pregnancy & lactation"
+    ],
+    "adverse_reaction": [
+        "Anorexia, nausea, diarrhea, metallic taste, wt loss. Impaired vit B12 absorption. Rarely, lactic acidosis"
+    ],
+    "interactions": [
+        "Amiloride, cimetidine, digoxin, morphine, procainamide, quinidine, vancomycin, trimethoprim. May increase levels w/ cimetidine"
+    ],
+    "presentation_packaging": [
+        "Film Coated tablet 500 mg x 60's."
+    ]
+    },
+    {
+    "id": "c07b8f9d-78e5-4f1c-e4d3-abcdef123461",
+    "product_website": "https://keltican.ph",
+    "slug": "keltican",
+    "owner": "Natrapharm Products",
+    "category": ["Food Supplement"],
+    "medicine_name": "Keltican®",
+    "brand_name": "Keltican®",
+    "generic_name": "",
+    "description": "Used as adjuvant therapy for peripheral neuropathy and general health support.",
+    "image": "/products/first_twelve/keltican.png",
+    "regulatory": "",
+    "indication": [
+        "Dietary supplement"
+    ],
+    "dosage_and_administration": [
+        "1 cap/day."
+    ],
+    "formulation": [
+        {
+        "logo": "/products/first_twelve/keltican.png",
+        "note": "Each capsule contains:",
+        "components": [
+            { "name": "Uridine-5' monophosphate-diNa", "dosage": "50mg" },
+            { "name": "vit B12", "dosage": "3 mcg" },
+            { "name": "folic acid", "dosage": "600 mcg" }
+        ]
+        }
+    ],
+    "contraindication": [],
+    "special_precaution": [
+        "Not to be used during pregnancy & lactation. Not intended for children."
+    ],
+    "adverse_reaction": [],
+    "interactions": [],
+    "presentation_packaging": [
+        "Capsule 20's, 40's ."
+    ]
+    }
+  ]
+  
+  

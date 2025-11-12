@@ -5,68 +5,90 @@ export async function GET(request, { params }) {
   const { path = [] } = params
   const route = `/${path.join('/')}`
 
-  //Products
-  if (route === '/products' || route === '/products/') {
-    try {
-      const res = await fetch(
-        'https://api.jsonbin.io/v3/b/68fac834ae596e708f278633/latest',
-        {
-          headers: {
-            'X-Master-Key': process.env.JSONBIN_KEY,
-          },
-          cache: 'no-store',
-        }
+// Products
+if (route === '/products' || route === '/products/') {
+  try {
+    const res = await fetch(
+      'https://api.jsonbin.io/v3/b/691354c2d0ea881f40e1feda/latest',
+      {
+        headers: {
+          'X-Master-Key': process.env.JSONBIN_KEY,
+        },
+        cache: 'no-store',
+      }
+    );
+
+    const data = await res.json();
+    const products = data.record || [];
+
+    const url = new URL(request.url);
+    const search = (url.searchParams.get('search') || '').toLowerCase();
+    const category = url.searchParams.get('category') || 'All';
+    const owner = url.searchParams.get('owner') || 'All';
+    const take = parseInt(url.searchParams.get('take') || '10', 10);
+    const skip = parseInt(url.searchParams.get('skip') || '0', 10);
+
+    // --- FILTERING ---
+    let filtered = [...products];
+
+    // Filter by category
+    if (category !== 'All') {
+      filtered = filtered.filter(
+        (p) => Array.isArray(p.category) && p.category.includes(category)
       );
-  
-      const data = await res.json();
-      const products = data.record; // array ng products
-  
-      const url = new URL(request.url);
-      const search = url.searchParams.get('search') || '';
-      const category = url.searchParams.get('category') || 'All';
-      const take = parseInt(url.searchParams.get('take') || '10', 10);
-      const skip = parseInt(url.searchParams.get('skip') || '0', 10);
-  
-      // Filter products based on category & search
-      let filtered = [...products];
-  
-      if (category !== 'All') {
-        filtered = filtered.filter((p) =>
-          Array.isArray(p.category) ? p.category.includes(category) : false
-        );
-      }
-  
-      if (search) {
-        const lowerSearch = search.toLowerCase();
-        filtered = filtered.filter(
-          (p) =>
-            p.medicine_name.toLowerCase().includes(lowerSearch) ||
-            p.brand_name.toLowerCase().includes(lowerSearch)
-        );
-      }
-  
-      // Paginate filtered results
-      const paginated = filtered.slice(skip, skip + take);
-  
-      // Extract all unique categories from **all products** for front-end dropdown
-      const allCategoriesSet = new Set();
-      products.forEach((p) => {
-        if (Array.isArray(p.category)) {
-          p.category.forEach((c) => allCategoriesSet.add(c));
-        }
-      });
-      const allCategories = ['All', ...Array.from(allCategoriesSet)];
-  
-      return NextResponse.json({
-        total: filtered.length, // total of matching products
-        products: paginated,
-        categories: allCategories, // send all categories to front-end
-      });
-    } catch (err) {
-      console.error('Error fetching products:', err);
-      return NextResponse.json({ error: 'Failed to fetch products' }, { status: 500 });
     }
+
+    // Filter by owner
+    if (owner !== 'All') {
+      filtered = filtered.filter(
+        (p) => p.owner && p.owner.toLowerCase() === owner.toLowerCase()
+      );
+    }
+
+    // Filter by search (medicine or brand)
+    if (search) {
+      filtered = filtered.filter(
+        (p) =>
+          p.medicine_name.toLowerCase().includes(search) ||
+          p.brand_name.toLowerCase().includes(search)
+      );
+    }
+
+    // --- PAGINATION ---
+    const paginated = filtered.slice(skip, skip + take);
+
+    // --- UNIQUE CATEGORIES ---
+    const allCategoriesSet = new Set();
+    products.forEach((p) => {
+      if (Array.isArray(p.category)) {
+        p.category.forEach((c) => allCategoriesSet.add(c));
+      }
+    });
+    const allCategories = ['All', ...Array.from(allCategoriesSet)];
+
+    // --- UNIQUE OWNERS ---
+    const allOwnersSet = new Set();
+    products.forEach((p) => {
+      if (p.owner) allOwnersSet.add(p.owner);
+    });
+    const allOwners = ['All', ...Array.from(allOwnersSet)];
+
+    // --- RESPONSE ---
+    return NextResponse.json({
+      total: filtered.length,
+      products: paginated,
+      categories: allCategories,
+      owners: allOwners,
+    });
+  } catch (err) {
+    console.error('Error fetching products:', err);
+    return NextResponse.json(
+      { error: 'Failed to fetch products' },
+      { status: 500 }
+    );
   }
+}
+
   
   //Careers
   if (route === '/careers' || route === '/careers/') {
