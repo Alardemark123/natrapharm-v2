@@ -21,50 +21,61 @@ export default function ProductCard({ product, index }) {
 
   return (
     <>
-      {/* Product Card */}
-      <motion.div
-        variants={{
-          hidden: { opacity: 0, y: 30 },
-          visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-        }}
-        initial="hidden"
-        animate="visible"
-        className="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-      >
-        <div className="relative h-56 overflow-hidden bg-gray-100">
-          <img
-            src={product.image}
-            alt={product.medicine_name}
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          <div className="absolute top-4 right-4 bg-[#e12328] text-white px-3 py-1 rounded-full text-xs font-semibold">
-            {product.category.join(', ')}
+   {/* Product Card */}
+   <motion.div
+    variants={{
+        hidden: { opacity: 0, y: 30 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+      }}
+      initial="hidden"
+      animate="visible"
+      className="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 h-[450px] flex flex-col"
+    >
+      {/* Image Section */}
+      <div className="relative h-56 overflow-hidden bg-gray-100">
+        <img
+          src={product.image}
+          alt={product.medicine_name}
+          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="absolute top-4 right-4 bg-[#e12328] text-white px-3 py-1 rounded-full text-xs font-semibold">
+          {product.category.join(', ')}
+        </div>
+      </div>
+
+      {/* Content Section */}
+      <div className="p-6 flex flex-col flex-1">
+        {/* Title and Icon */}
+        <div className="flex items-start gap-3 mb-3">
+          <div className="w-10 h-10 bg-[#e12328] rounded-lg flex items-center justify-center flex-shrink-0">
+            <Pill className="w-5 h-5 text-white" />
+          </div>
+          <div className="flex-1">
+            <h3 className="font-sans text-xl font-semibold text-black mt-1 group-hover:text-[#e12328] transition-colors duration-300">
+              {product.medicine_name}
+            </h3>
           </div>
         </div>
 
-        <div className="p-6">
-          <div className="flex items-start gap-3 mb-3">
-            <div className="w-10 h-10 bg-[#e12328] rounded-lg flex items-center justify-center flex-shrink-0">
-              <Pill className="w-5 h-5 text-white" />
-            </div>
-            <div className="flex-1">
-              <h3 className="font-sans text-xl font-semibold text-black mt-1 group-hover:text-[#e12328] transition-colors duration-300">
-                {product.medicine_name}
-              </h3>
-            </div>
-          </div>
-          <p className="text-sm text-gray-600 leading-relaxed mb-4 line-clamp-3">
-            {product.description}
-          </p>
-          <button
-            onClick={() => setModalOpen(true)}
-            className="w-full bg-gray-100 text-gray-700 py-3 rounded-xl font-medium hover:bg-[#e12328] hover:text-white transition-all duration-300"
-          >
-            View Details
-          </button>
-        </div>
-      </motion.div>
+        {/* Description */}
+        <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-1">
+          {product.description.length > 100
+            ? product.description.substring(0, 100) + "..."
+            : product.description}
+        </p>
+
+        {/* Button */}
+        <button
+          onClick={() => setModalOpen(true)}
+          className="w-full bg-gray-100 text-gray-700 py-3 rounded-xl font-medium hover:bg-[#e12328] hover:text-white transition-all duration-300 mt-auto"
+        >
+          View Details
+        </button>
+      </div>
+    </motion.div>
+
+
 
       {/* Modal */}
       <AnimatePresence>
@@ -138,6 +149,16 @@ export default function ProductCard({ product, index }) {
           { label: 'Formulation', items: product.formulation?.map(f =>
             `${f.note}: ${f.components.map(c => `${c.name} ${c.dosage}`).join(', ')}`
           ) || [] },
+          { label: 'Pharmacodynamics', items: product.pharmacodynamics?.map(f =>
+            `${f.components.map(c => `${c.name}: ${c.description}`).join(', ')}`
+          ) || [] },
+          { label: 'Pharmacokinetics', items: product.pharmacokinetics?.map(f =>
+            `${f.components.map(c => `${c.name}: ${c.description}`).join(', ')}`
+          ) || [] },
+          { label: 'Warning', items: product.warning?.map(f =>
+            `${f.components.map(c => `${c.name}: ${c.description}`).join(', ')}`
+          ) || [] },
+          { label: 'Precaution', items: product.precaution || [] },
           { label: 'Contraindication', items: product.contraindication || [] },
           { label: 'Special Precautions', items: product.special_precaution || [] },
           { label: 'Adverse Reactions', items: product.adverse_reaction || [] },

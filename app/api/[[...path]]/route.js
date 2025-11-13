@@ -9,17 +9,13 @@ export async function GET(request, { params }) {
 if (route === '/products' || route === '/products/') {
   try {
     const res = await fetch(
-      'https://api.jsonbin.io/v3/b/691354c2d0ea881f40e1feda/latest',
-      {
-        headers: {
-          'X-Master-Key': process.env.JSONBIN_KEY,
-        },
-        cache: 'no-store',
-      }
+      'https://api.jsonsilo.com/public/1a13aaf6-860a-4945-b76b-438e5bd2164e',
+      {cache: 'no-store'}
     );
 
     const data = await res.json();
-    const products = data.record || [];
+    const products = data || [];
+    // const products = data.record || [];
 
     const url = new URL(request.url);
     const search = (url.searchParams.get('search') || '').toLowerCase();

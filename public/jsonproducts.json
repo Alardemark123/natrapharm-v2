@@ -28,6 +28,10 @@
           ]
         }
       ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
       "administration": [
         "Take with or without food. Avoid excessive consumption (>1 L/day) of grapefruit juice."
       ],
@@ -77,6 +81,10 @@
           ]
         }
       ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
       "contraindication": [
         "Severe hepatic impairment. Concomitant use w/ pimozide."
       ],
@@ -121,6 +129,10 @@
           ]
         }
       ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
       "contraindication": [],
       "special_precaution": [
         "Patients w/ hyperthyroidism, HTN, heart disease, DM. Not a substitute for inhaled corticosteroids & other anti-inflammatory agents. Instruct patient/guardian not to abruptly reduce the dosage or stop use & switch to monotherapy unless instructed by physician. May develop acute asthma episodes during long-term management of bronchial asthma, chronic bronchitis & pulmonary emphysema. Continuous administration in excessive amounts may cause cardiac arrhythmia & arrest. W/draw the drug 12 hr prior to allergen tests. Pregnancy. Interrupt treatment during lactation. Low birth wt infants & neonates. Elderly."
@@ -162,6 +174,10 @@
           ]
         }
       ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
       "administration": [],
       "contraindication": [],
       "special_precaution": [
@@ -201,6 +217,10 @@
           ]
         }
       ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
       "contraindication": [
         "Stroke w/in the last 6 mth, CV shock, valvular heart disease (higher-grade aortic or moral stenosis), hypertrophic obstructive cardiomyopathy, unstable angina pectoris, acute MI w/in the last 8 wk, 2nd- & 3rd-degree AV block, CHF, severe hepatic & renal impairment. Pregnancy. Childn."
       ],
@@ -245,6 +265,10 @@
           ]
         }
       ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
       "administration": ["Take 1 hr before or 2 hr after meals"],
       "contraindication": [
         "Rifampicin: Patients w/ jaundice. Ethambutol: Optic neuritis"
@@ -291,6 +315,10 @@
             ]
           }
         ],
+        "pharmacodynamics": [],
+        "pharmacokinetics": [],
+        "precaution": [],
+        "warning": [],
         "contraindication": [
           "Rifampicin: Patients with jaundice",
           "Ethambutol: Optic neuritis"
@@ -339,6 +367,10 @@
         ]
         }
     ],
+    "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
     "contraindication": [
         "Fixcom 4 Pyrazinamide: Liver damage, acute gout or hyperuricemia."
     ],
@@ -383,6 +415,10 @@
         ]
         }
     ],
+    "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
     "contraindication": [
         "Type 1 DM. Patients w/ ketoacidosis, severe infections, trauma or other severe conditions where drug is unlikely to control hyperglycemia. Severe hepatic & renal impairment. Porphyria. Pregnancy & lactation"
     ],
@@ -425,6 +461,10 @@
         ]
         }
     ],
+    "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
     "contraindication": [],
     "special_precaution": [
         "Gastrointestinal (GI) condition; Some GI conditions, such as ileal disease or surgical removal of part of intestine, can reduce the amount of dibencozide that is absorbed from the intestine."
@@ -465,6 +505,10 @@
         ]
         }
     ],
+    "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
     "contraindication": [
         "Renal impairment, liver or heart failure, recent MI, dehydration, alcoholism & other conditions predisposing to lactic acidosis"
     ],
@@ -510,6 +554,10 @@
         ]
         }
     ],
+    "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
     "contraindication": [],
     "special_precaution": [
         "Not to be used during pregnancy & lactation. Not intended for children."
@@ -519,7 +567,1286 @@
     "presentation_packaging": [
         "Capsule 20's, 40's ."
     ]
+    },
+
+
+    {
+      "id": "4146a807-399b-4e4b-ab66-c748c71a7d15",
+      "product_website": "",
+      "slug": "kidz-kit-2",
+      "owner": "Natrapharm Products",
+      "category": ["Antituberculosis"],
+      "medicine_name": "Kidz Kit ® 2",
+      "brand_name": "Kidz Kit ® 2",
+      "generic_name": "Isoniazid + Pyridoxine HCl (Curazid Forte) + Rifampicin (Natricin Forte)",
+      "description": "Used to prevent tuberculosis in children.",
+      "image": "/products/second_twelve/kidz-kit-2.png",
+      "regulatory": "℞",
+      "indication": [
+          "Pulmonary & extrapulmonary TB."
+      ],
+      "dosage_and_administration": [
+          "Kidz Kit 2 Natricin Forte susp 10 mg/kg, w/ daily max dose of 600 mg. Curazid Forte syr 10-20 mg/kg in single or divided doses. Natricin Forte susp 10 mg/kg, max dose: 600 mg daily. Curazid Forte syr 10-20 mg/kg, max dose: 300 mg daily."
+      ],
+      "formulation": [
+          {
+          "logo": "/products/second_twelve/kidz-kit-2.png",
+          "note": "Each tablet contains:",
+          "components": [
+              { "name": "Kidz Kit 2 Natricin Forte 120 mL", "dosage": "120 mL" },
+              { "name": "Kidz Kit 2 Curazid Forte 120 mL", "dosage": "120 mL" },
+              { "name": "Kidz Kit 2 Per 5 mL Natricin Forte oral susp containing Rifampicin", "dosage": "200mg" },
+              { "name": " Kidz Kit 2 Per 5 mL Curazid Forte syr containing INH", "dosage": "200mg" },
+              { "name": " pyridoxine HCl 10 mg", "dosage": "10mg." }
+          ]
+          }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Taken on empty stomach. Take 1 hr before meals. May be taken w/ meals if GI discomfort occurs."],
+      "contraindication": ["Jaundice. Kidz Kit 2 Hypersensitivity to rifampicin. Severe liver damage."],
+      "special_precaution": ["Kidz Kit 2 INH: Convulsive disorders, DM, chronic alcoholism, impaired liver or kidney function."],
+      "adverse_reaction": ["Kidz Kit 2 Nausea, vomiting & other GI effects. Discontinue if symptoms of hepatitis eg, malaise, fatigue, anorexia & nausea develop. "],
+      "interactions": ["Kidz Kit 2 Other potentially hepatotoxic agents."],
+      "presentation_packaging": ["Kidz Kit 2 kit 1's 12's. Kit 2 kit 2's 12's."]
+    },
+    {
+      "id": "648a2998-1a08-4591-9001-28644c32df91",
+      "product_website": "",
+      "slug": "kidz-kit-3",
+      "owner": "Natrapharm Products",
+      "category": ["Antituberculosis"],
+      "medicine_name": "Kidz Kit ® 3",
+      "brand_name": "Kidz Kit ® 3",
+      "generic_name": "Pyrazinamide (Zcure) + Rifampicin (Natricin Forte) + Isoniazid + Pyridoxine HCl (Curazid Forte)",
+      "description": "Management of pulmonary & extrapulmonary TB.",
+      "image": "/products/second_twelve/kidz-kit-3.png",
+      "regulatory": "℞",
+      "indication": ["Pulmonary & extrapulmonary TB."],
+      "dosage_and_administration": ["Zcure susp 25 mg/kg, maximum dose: 3 g daily. Natricin Forte susp 10 mg/kg, maximum dose: 600 mg daily. Curazid Forte syr 10-20 mg/kg, maximum dose: 300 mg daily."],
+      "formulation": [
+          {
+          "logo": "/products/second_twelve/kidz-kit-3.png",
+          "note": "Each tablet contains:",
+          "components": [
+              { "name": "Kidz Kit 3 Per 5 mL Zcure oral susp containing Pyrazinamide 250 mg. Kidz Kit 3 Per 5 mL Natricin Forte oral susp containing Rifampicin 200 mg. Kidz Kit 3 Per 5 mL Curazid Forte syr containing INH 200 mg, pyridoxine HCl 10 mg", "dosage": "250mg, 200mg, 200mg, 10mg" }
+          ]
+          }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Take 1 hr before meals. May be taken w/ meals if GI discomfort occurs."],
+      "contraindication": ["Jaundice"],
+      "special_precaution": ["Kidz Kit 3 Liver damage, impaired renal function or history of gout. DM, convulsive disorders, history of psychosis. Alcoholics, malnourished, uremia, HIV. Pregnancy."],
+      "adverse_reaction": ["Hepatotoxicity, hyperuricemia leading to gout. GI & hematologic effects, pseudomembranous colitis."],
+      "interactions": [],
+      "presentation_packaging": ["Kidz Kit 3 kit 1's"]
+    },
+    {
+      "id": "5ed94c6a-792c-4a67-b2b2-9d5f67ada965",
+      "product_website": "",
+      "slug": "kidz-kit-3-forte",
+      "owner": "Natrapharm Products",
+      "category": ["Antituberculosis"],
+      "medicine_name": "Kidz Kit ® 3 Forte",
+      "brand_name": "Kidz Kit ® 3 Forte",
+      "generic_name": "Pyrazinamide (Zcure) + Rifampicin (Natricin Forte) + Isoniazid + Pyridoxine HCl (Curazid Forte)",
+      "description": "Zcure- White to off-white colored suspension. Banana/Vanilla flavored. Sweet fruit taste. Natricin Forte- Red to brick-red to reddish-orange colored suspension. Strawberry flavored. Sweet fruit taste. Curazid Forte- Clear Light yellow to yellowish syrup. Apple flavored. Sweet Fruit taste.",
+      "image": "/products/second_twelve/kidz-kit-3-forte.png",
+      "regulatory": "℞",
+      "indication": ["For the treatment of pulmonary and extrapulmonary tuberculosis."],
+      "dosage_and_administration": [],
+      "formulation": [
+        {
+          "logo": "/products/second_twelve/kidz-kit-3-forte.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Isoniazid + Pyridoxine HCI (Curazid ® Forte)", "dosage": "200 mg/10 mg per 5 mL Syrup" },
+            { "name": "Rifampicin (Natricin ® Forte)", "dosage": "200 mg/5 mL Suspension" },
+            { "name": "Pyrazinamide (Zcure ® Forte)", "dosage": "500 mg/5 mL Suspension" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [
+        {
+          "components": [
+            { "name": "Zcure", "description": "Pyrazinamide has a bactericidal effect of Mycobacterium tuberculosis but appears to have no activity against other mycobacteria. The ph-dependent activity explains the clinical effectiveness of pyrazinamide." },
+            { "name": "Natricin Forte", "description": "Rifampicin is bactericidal against a wide range of microorganisms and interferes with their synthesis of nucleic acids by inhibiting deoxyribonucleic acid (DNA)- dependent ribonucleic acid (RNA) polymerase. It has the ability to kill intracellular organisms." },
+            { "name": "Curazid Forte", "description": "Isoniazid kills actively growing tubercle bacilli by inhibiting the mycolic acids which are the major components of the bacterial cell wall of Mycobacterium tuberculosis." }
+          ]
+        }
+      ],
+      "pharmacokinetics": [
+        {
+          "components": [
+            { "name": "Zcure", "description": "Pyrazinamide is readily absorbed from the gastrointestinal tract. Peak serum concentrations occur about 2 hours after a dose by mouth and have been reported to be about 35 mcg/mL after 1.5 g and 66 mcg/mL after 3 g. Pyrazinamide is widely distributed in body fluids and tissues and diffuses into the CSF. The half-life (t½) has been reported to be about 9-10 hours. It is metabolised primarily in the liver by hydrolysis to the major active metabolite pyrazinoic acid which is subsequently hydroxylated to the major excretory product 5-hydropyrazinoic acid. It is excreted through the kidney mainly by glomerular filtration. About 70% of a dose appears in the urine within 24 hours mainly as metabolites and 4 to 14% as unchanged drug. Pyrazinamide is removed by dialysis." },
+            { "name": "Natricin Forte", "description": "Rifampicin is readily absorbed from the gastrointestinal tract. Peak serum concentrations of the order of 10 μg/ml occur about 2 to 4 hours after a dose of 10 mg/kg body weight on an empty stomach. Absorption of rifampicin is reduced when the drug is ingested with food. The pharmacokinetics (oral and intravenous) in children is similar to adults. In normal subjects the biological half-life of rifampicin in serum averages about 3 hours after a 600 mg dose and increases to 5.1 hours after a 900 mg dose. With repeated administration, the half-life decreases and reaches average values of approximately 2-3 hours. At a dose of up to 600 mg/day, it does not differ in patients with renal failure and consequently, no dosage adjustment is required." },
+            { "name": "Curazid Forte", "description": "Peak concentrations of about 3 to 8 μg per ml appear in blood 1 to 2 hours after a fasting dose of 300mg by mouth. The rate and extent of absorption of isoniazid is reduced by food. Isoniazid is not considered to be bound appreciably to plasma proteins and diffuses into all body tissues and fluids, including the CSF. The plasma half-life for isoniazid ranges from about 1 to 6 hours, those who are fast acetylators having shorter half-lives. The primary metabolic route is the acetylation of isoniazid to acetylisoniazid by N-acetyltransferase found in the liver and small intestine. Acetylisoniazid is then hydrolyzed to isonicotinic acid and monoacetylhydrazine; isonicotinic acid is conjugated with glycine to isonicotinyl glycine (isonicotinuric acid) and monoacetylhydrazine is further acetylated to diethylhydrazine. Some unmetabolised isoniazid is conjugated to hydrazones. The metabolites of isoniazid have no tuberculo-static activity and apart from possibly monoacetylhydrazine they are also less toxic. In patients with normal renal function, over 75% of a dose appears in the urine in 24 hours, mainly as metabolites. Small amounts of drug are also excreted in the feces. Isoniazid is removed by dialysis." }
+          ]
+        }
+      ],
+      "precaution": [
+        "Pyrazinamide is contraindicated in patients with liver damage, but if treatment is necessary, the dosage must be reduced. Liver function should be assessed before and regularly during treatment. Pyrazinamide should not be given to patients with acute gout or hyperuricaemia and should be used with caution in patients with a history of gout. Caution should be observed in patients with impaired renal function. Increased difficulty has been reported in controlling diabetes mellitus when diabetics are given pyrazinamide.",
+        "Liver functions should be checked before treatment with rifampicin and special care should be taken in alcoholic patients or those with pre-existing liver disease who require monitoring during therapy. When other liver function tests are within normal limits, hyperbilirubinaemia in the first weeks or moderately elevated alkaline phosphatase are not indications to withdraw rifampicin. However, dose adjustment is necessary when there is over evidence of hepatic impairment and treatment should be suspended when there is evidence of more serious liver toxicity. It is contraindicated in patients with jaundice or hypersensitivity with rifampicin.",
+        "Isoniazid should be administered with caution to patients with convulsive disorders, a history of tic or renal dysfunction. Patients who are at risk of neuropathy or pyridoxine deficiency, including those who are diabetic, alcoholic, malnourished, uraemic, pregnant or infected with HIV, should receive pyridoxine usually in a dose of 10mg daily, although some have suggested using 50mg daily. If symptoms of hepatitis such as malaise, fatigue, anorexia and nausea develop isoniazid should be discontinued pending evaluation.",
+        "Periodic eye examinations during isoniazid treatment have been suggested. Liver function should be assessed before and regularly during treatment of these anti-tuberculosis drugs."
+      ],
+      "warning": [
+        {
+          "components": [
+            { "name": "Hypersensitivity", "description": "Stop all drugs and evaluate at the first sign of a hypersensitivity reaction. Careful monitoring of hepatic function is recommended with the concurrent use of Pyrazinamide, Rifampicin and Isoniazid." }
+          ]
+        }
+      ],
+      "administration": [],
+      "contraindication": [],
+      "special_precaution": [],
+      "adverse_reaction": [],
+      "interactions": [],
+      "presentation_packaging": []
+    },
+    {
+      "id": "5a2a7ef6-f8f1-4744-aae1-2e9b40ddb918",
+      "product_website": "",
+      "slug": "levofloxin-natrapharm-",
+      "owner": "Natrapharm Products",
+      "category": ["Antibacterial"],
+      "medicine_name": "Levofloxin-Natrapharm ®",
+      "brand_name": "Levofloxin-Natrapharm ®",
+      "generic_name": "Levofloxacin hemihydrate",
+      "description": "Treatment of infections caused by susceptible strains of gram positiveve & gram negative microorganisms.",
+      "image": "/products/second_twelve/levofloxin-natrapharm.png",
+      "regulatory": "℞",
+      "indication": ["Treatment of infections caused by susceptible strains of gram positiveve & gram negative microorganisms."],
+      "dosage_and_administration": ["Adult Acute sinusitis 500 mg once daily for 10-14 days or 750 mg once daily for 5 days. Acute exacerbations of chronic bronchitis, chlamydial infections & nongonococcal urethritis 500 mg once daily for 7 days. Community-acquired pneumonia (CAP) 500 mg once daily for 7-14 days. Empiric CAP treatment or CAP caused by S. pneumoniae (penicillin-susceptible strains), H. influenzae, H. parainfluenzae, C. pneumoniae, M. pneumoniae & P. aeruginosa 750 mg once daily for 5 days. Nosocomial pneumonia 750 mg once daily for 7-14 days. UTI & prostatitis 250 mg once daily for 3 days. Complicated UTI caused by E. coli, K. pneumoniae or P. mirabilis or acute pyelonephritis caused by E. coli 250 mg once daily for 10 days or 750 mg once daily for 5 days. Chronic prostatitis 500 mg once daily for 28 days. Epididymitis -ve for N. gonorrhea 500 mg once daily for 10 days. Pelvic inflammatory disease 500 mg once daily for 14 days w/ or w/o metronidazole 500 mg bid for 14 days. Traveler's diarrhea 500 mg once daily for 1-3 days. Post-exposure prophylaxis to inhalational anthrax Adult 500 mg once daily. Childn ≥6 mth weighing >50 kg 500 mg once daily; 50kg 8 mg/kg (Max: 250 mg/dose) 12 hrly. Uncomplicated or disseminated gonorrhea & associated infections Adult & adolescent 250 mg as a single dose."],
+      "formulation": [
+        {
+          "logo": "/products/second_twelve/levofloxin-natrapharm.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Levofloxacin hemihydrate", "dosage": "500mg tablet" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Taken with or without food. Ensure adequate fluid intake."],
+      "contraindication": ["Known hypersensitivity to levofloxacin or other quinolones. Treatment of proven or suspected gonorrhea."],
+      "special_precaution": ["Monitor closely blood glucose conc in patients taking hypoglycemics or insulin. Discontinue use if pain, swelling, inflammation or rupture of tendon; symptoms of neuropathy or other alterations of sensation & hypoglycemic reactions occurs; if patient experiences loss of appetite, nausea, vomiting, fever, weakness, tiredness, right upper quadrant tenderness, itching, yellowing of the skin or eyes, light colored bowel movements or dark colored urine & at 1st appearance of rash, jaundice or any other signs of hypersensitivity. Known or suspected CNS disorders or other risk factors predisposing to seizures or lower the seizure threshold. Superinfection/Clostridium difficile-associated diarrhea & colitis. Increased risk of tendonitis & tendon rupture, musculoskeletal disorders (childn) & severe hepatotoxicity. History of prolonged QT interval, uncorrected electrolyte disorders eg, hypokalemia & concomitant use w/ class IA or III antiarrhythmics. Renal impairment. Pregnancy & lactation. Elderly >60 yr especially those receiving concomitant corticosteroids. Infant & childn ≥6 mth except in post-exposure prophylaxis against inhalational anthrax."],
+      "adverse_reaction": ["Hyperglycemia &/or hypoglycemia; hypersensitivity &/or anaphylactic reactions; seizures, toxic psychoses, increased intracranial pressure & CNS stimulation; peripheral neuropathy; prolonged QT interval."],
+      "interactions": ["Class IA (eg, quinidine, procainamide) or class III (eg, amiodarone, sotalol) antiarrhythmics; fluoxetine, imipramine; antidiabetic agents (insulin, glyburide); corticosteroids; cyclosporin, tacrolimus; NSAIDs; theophylline; warfarin; Mg- or Al-containing antacids, buffered didanosine, sucralfate, multivit & minerals containing Fe, Ca, Mg or Zn (at least 2 hr apart)."],
+      "presentation_packaging": ["Film coated tablet 500 mg x 30's."]
+    },
+    {
+      "id": "d31d0220-9902-4ac3-af5f-85dac6f026e0",
+      "product_website": "",
+      "slug": "montemax",
+      "owner": "Natrapharm Products",
+      "category": [],
+      "medicine_name": "Montemax ®",
+      "brand_name": "Montemax ®",
+      "generic_name": "Montelukast Sodium",
+      "description": "Treatment of bronchial asthma & allergic rhinitis.",
+      "image": "/products/second_twelve/montemax.png",
+      "regulatory": "℞",
+      "indication": ["Management of bronchial asthma & allergic rhinitis."],
+      "dosage_and_administration": ["FC tab Asthma & allergic rhinitis Adult & children ≥15 yrs. 1 tab daily in the evening. Chewable tab 4 mg Children 2-5 yrs. 1 chewable tab daily. Chewable tab 5 mg Children < 15 yrs. 1 chewable tab daily."],
+      "formulation": [
+        {
+          "logo": "/products/second_twelve/montemax.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Montelukast Sodium", "dosage": "4mg tablet" },
+            { "name": "Montelukast Sodium", "dosage": "5mg tablet" },
+            { "name": "Montelukast Sodium", "dosage": "10mg tablet" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Take with or without food Special Precaution: Pregnancy & lactation."],
+      "contraindication": [],
+      "special_precaution": [],
+      "adverse_reaction": ["Edema, agitation & restlessness. Allergy e.g., anaphylaxis, angioedema & urticaria. Chest pain, tremor, dry mouth, vertigo & arthralgia."],
+      "interactions": ["Phenytoin, phenobarb, rifampicin."],
+      "presentation_packaging": ["Film-coated tab 10 mg x 30's. Chewable tab 4 mg x 30's. 5 mg x 30's."]
+    },
+    {
+      "id": "6df1b35e-ff88-491e-aa17-ed3ba10034a3",
+      "product_website": "",
+      "slug": "natravox-oral",
+      "owner": "Natrapharm Products",
+      "category": ["Antibacterial"],
+      "medicine_name": "Natravox ® Oral",
+      "brand_name": "Natravox ® Oral",
+      "generic_name": "Co-Amoxiclav",
+      "description": "Treatment of respiratory tract, GUT, abdominal, skin & soft tissue infections.",
+      "image": "/products/second_twelve/natravox-oral.png",
+      "regulatory": "℞",
+      "indication": ["Respiratory tract, GUT, abdominal, skin & soft tissue infections."],
+      "dosage_and_administration": ["Natravox tab Adult & children >12 yr Mild to moderate infection 250 mg/125 mg tid or 500 mg/125 mg bid. Severe infection 500 mg/125 mg tid. Dental infection 250 mg/125 mg tid or 500 mg/125 mg bid for 5 days. Natravox susp Children 25 mg/kg/day. Serious infections Up to 50 mg/kg/day. To be taken in divided doses 8 hrly."],
+      "formulation": [
+      {
+        "logo": "/products/second_twelve/natravox-oral.png",
+        "note": "Each tablet or suspension contains:",
+        "components": [
+          { "name": "Amoxicillin + Clavulanic acid", "dosage": "250 mg + 125 mg per tablet (375 mg total)" },
+          { "name": "Amoxicillin + Clavulanic acid", "dosage": "500 mg + 125 mg per tablet (625 mg total)" },
+          { "name": "Amoxicillin trihydrate + Clavulanic acid", "dosage": "125 mg + 31.25 mg per 5 mL suspension (156.25 mg/5 mL total)" },
+          { "name": "Amoxicillin trihydrate + Clavulanic acid", "dosage": "200 mg + 28.5 mg per 5 mL suspension (228.5 mg/5 mL total)" },
+          { "name": "Amoxicillin trihydrate + Clavulanic acid", "dosage": "250 mg + 62.5 mg per 5 mL suspension (312.5 mg/5 mL total)" },
+          { "name": "Amoxicillin trihydrate + Clavulanic acid", "dosage": "400 mg + 57 mg per 5 mL suspension (457 mg/5 mL total)" },
+          { "name": "Amoxicillin + Clavulanic acid", "dosage": "600 mg + 42.9 mg per 5 mL suspension (642.9 mg/5 mL total)" }
+        ]
+      }
+    ],
+
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Preferably taken at the start of meals for better absorption & to reduce GI discomfort."],
+      "contraindication": ["Hypersensitivity to penicillin. History of amoxicillin-K clavulanate-associated cholestatic jaundice/hepatic dysfunction."],
+      "special_precaution": ["Monitor renal function. Pregnancy & lactation."],
+      "adverse_reaction": ["Transient hepatitis & cholestatic jaundice skin rash, urticaria, angioedema, anaphylaxis; pseudomembranous colitis; Stevens-Johnson syndrome; maculopapular rash; diarrhea, nausea & vomiting."],
+      "interactions": ["Probenecid, Oral Contraceptives (Ocs)."],
+      "presentation_packaging": [
+        "Natravox 375 mg tab 48's",
+        "Natravox 625 mg tab 40's",
+        "Natravox 156.25 mg/5 mL oral susp 60 mL",
+        "Natravox 228.5 mg/5 mL oral susp 70 mL",
+        "Natravox 312.5 mg/5 mL oral susp 60 mL",
+        "Natravox 457 mg/5 mL oral susp 35 mL, 70 mL",
+        "Natravox 642.9 mg/5 mL oral susp 50 mL, 70 mL, 100 mL"
+      ]
+    },
+    {
+      "id": "cbf28781-6f4e-47e0-a9cd-9727714f137d",
+      "product_website": "",
+      "slug": "natricin-forte",
+      "owner": "Natrapharm Products",
+      "category": ["Antituberculosis"],
+      "medicine_name": "Natricin ® Forte",
+      "brand_name": "Natricin ® Forte",
+      "generic_name": "Rifampicin",
+      "description": "All forms of TB, leprosy, infections due to susceptible microorganisms, Neisseria meningitidis carriers.",
+      "image": "/products/second_twelve/natricin-forte.png",
+      "regulatory": "℞",
+      "indication": ["All forms of TB, leprosy, infections due to susceptible microorganisms, Neisseria meningitidis carriers."],
+      "dosage_and_administration": ["10 mg/kg (max: 600 mg/day) or 15 mg/kg (max: 900 mg) bid-tid. Childn Childn 10 mg/kg. Max: 600 mg/day."],
+      "formulation": [
+        {
+          "logo": "/products/second_twelve/natricin-forte.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Natricin ® Forte", "dosage": "10mg tablet" },
+            { "name": "Natricin ® Forte", "dosage": "15mg tablet" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Taken on an empty stomach. Best taken 1 hr before or 2 hr after meals."],
+      "contraindication": ["Jaundice; hypersensitivity to rifampicin; 1st trimester of pregnancy; premature & newborn infant."],
+      "special_precaution": ["Impaired liver function."],
+      "adverse_reaction": ["GIT disturbances; headache, drowsiness, dizziness, inability to concentrate, mental confusion; visual disturbances; muscular weakness, ataxia; fever; pain in the extremities; general numbness; menstrual disturbances; fatigue."],
+      "interactions": ["Decreases effectiveness of corticosteroids, coumarin anticoagulants, OC, digoxin, methadone & tolbutamide."],
+      "presentation_packaging": ["Oral suspension 200 mg/5 mL x 120 mL ."]
+    },
+    {
+      "id": "347e32bb-b1ed-4e6b-a926-7ab4312bee65",
+      "product_website": "",
+      "slug": "natronem",
+      "owner": "Patriot Pharmaceuticals Corp. Products",
+      "category": ["Antibacterial"],
+      "medicine_name": "Natronem ®",
+      "brand_name": "Natronem ®",
+      "generic_name": "Meropenem trihydrate",
+      "description": "Septicemia; superficial suppurative disorder (phlegmone, lymphadenitis, perianal abscess); surgical & orthopedic infection (osteomyelitis, arthritis, wound infection); resp tract infection (pneumonia, circumtonsillar abscess, chronic bronchitis, bronchiectasis, secondary infection of chronic resp disease, pulmonary abscess, empyema); UTI (nephropyelitis, complicated cystitis); gynecological infection (adnexitis, intrauterine infection, pelvic cavity infection, pelvis cellulitis); otorhinological infection (otitis media, nasosinusitis); bacterial meningitis (childn from 3 mth); febrile neutropenia; cystic fibrosis.",
+      "image": "/products/second_twelve/natronem.png",
+      "regulatory": "℞",
+      "indication": ["Septicemia; superficial suppurative disorder (phlegmone, lymphadenitis, perianal abscess); surgical & orthopedic infection (osteomyelitis, arthritis, wound infection); resp tract infection (pneumonia, circumtonsillar abscess, chronic bronchitis, bronchiectasis, secondary infection of chronic resp disease, pulmonary abscess, empyema); UTI (nephropyelitis, complicated cystitis); gynecological infection (adnexitis, intrauterine infection, pelvic cavity infection, pelvis cellulitis); otorhinological infection (otitis media, nasosinusitis); bacterial meningitis (childn from 3 mth); febrile neutropenia; cystic fibrosis."],
+      "dosage_and_administration": ["Adult 500 mg-1 g bid-tid IV infusion over approx 30 min. Nosocomial pneumonia, peritonitis, febrile neutropenia, septicemia 1 g IV every 8 hr. Cystic fibrosis, meningitis 2 g IV every 8 hr. Childn 3 mth-12 yr Bacterial meningitis 40 mg/kg IV every 8 hr over approx 30 min depending on the type & severity of infection, known or suspected susceptibility of the pathogen(s) & patient's condition."],
+      "formulation": [
+        {
+          "logo": "/products/second_twelve/natronem.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Natronem", "dosage": "500mg" },
+            { "name": "Natronem", "dosage": "1g" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": [],
+      "contraindication": ["Hypersensitivity. Concomitant use w/ valproic acid/Na valproate."],
+      "special_precaution": ["History of hypersensitivity to carbapenems, penicillins or other β-lactams. Discontinue use if severe allergic reaction occurs. Patients w/ severe renal or hepatic impairment; history of epilepsy & CNS impairment; preexisting liver disorder. Development of resistance in pseudomonal hospital-acquired lower resp tract infections. Monotherapy w/ critically ill patients w/ known or suspected Pseudomonas aeruginosa lower resp tract infection. Perform regular sensitivity testing during treatment. Pseudomembranous colitis, history of GI complaints particularly colitis. Provide fluids, electrolytes & protein replacement when indicated. Do not use drugs that delay peristalsis eg, opiates & diphenoxylate w/ atropine. Neurological sequelae (following treatment of severe meningitis). May develop +ve or indirect Coombs' test. Avoid use during pregnancy. Lactation. Infants < 3 mth. Elderly."],
+      "adverse_reaction": ["Local IV inj site reactions (eg, inflammation, thrombophlebitis, pain); nausea, vomiting, diarrhea; reversible thrombocytopenia; increases in serum transaminases, bilirubin, alkaline phosphatase & lactic dehydrogenase. Systemic allergic reactions; rash, pruritus, urticaria, severe skin reactions (eg, erythema multiforme, Stevens-Johnson syndrome & toxic epidermal necrolysis; oral & vag candidiasis."],
+      "interactions": ["Inhibited renal excretion w/ probenecid. Decreased blood levels of valproic acid"],
+      "presentation_packaging": ["Powd for inj (vial) 500 mg x 1's , 10's . 1 g x 1's , 10's."]
+    },
+    {
+      "id": "50354127-7e69-4bec-aa94-d39f5ce81df5",
+      "product_website": "",
+      "slug": "nervagest",
+      "owner": "Natrapharm Products",
+      "category": ["Antiepileptic"],
+      "medicine_name": "Nervagest ®",
+      "brand_name": "Nervagest ®",
+      "generic_name": "Pregabalin",
+      "description": "Adjunctive therapy in adult w/ partial seizures w/ or w/o secondary generalization. Generalized anxiety disorder (GAD) in adult.",
+      "image": "/products/second_twelve/nervagest.png",
+      "regulatory": "℞",
+      "indication": ["Adjunctive therapy in adult w/ partial seizures w/ or w/o secondary generalization. Generalized anxiety disorder (GAD) in adult."],
+      "dosage_and_administration": ["Adult 150 mg/day in 2 or 3 divided doses. May be increased to 300 mg/day after an interval of 3-7 days. Max: 600 mg/day after an additional 7-day interval. GAD Adult 150-600 mg/day in 2 or 3 divided doses. Initially 150 mg/day, may be increased to 450 mg/day. Max: 600 mg/day after an additional 7 days. Renal impairment CrCl ≥60 mL/min Starting dose: 150 mg/day bid or tid, max: 600 mg/day bid or tid, ≥30 to < 60 mL/min Starting dose: 75 mg/day bid or tid, max: 300 mg/day bid or tid, ≥15 to < 30 mL/min Starting dose: 25-50 mg/day once daily or bid, max: 150 mg/day once daily or bid. CrCl < 15 mL/min Starting dose: 25 mg once daily, max: 75 mg once daily. Supplementary dose following haemodialysis 25 mg as a single dose. Max: 100 mg as a single dose."],
+      "formulation": [
+        {
+          "logo": "/products/second_twelve/nervagest.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Nervagest", "dosage": "75mg capsule" },
+            { "name": "Nervagest", "dosage": "150mg capsule" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Taken with or without meals."],
+      "contraindication": ["Hypersensitivity."],
+      "special_precaution": ["Hypersensitivity including angioedema. Increased risk of suicidal thoughts or behavior, worsening of depression &/or unusual changes in mood/behavior. Increased occurrence of accidental injury (fall) in elderly. Loss of vision, visual blurring or other changes of visual acuity; visual improvement upon discontinuation. Renal failure; CHF; diabetic patients. May have minor or moderate influence on the ability to drive or use of machinery. Not to be used during pregnancy. Not recommended during lactation. Adolescents 12-17 yr & childn <12 yr. Elderly >65 yr."],
+      "adverse_reaction": ["Dizziness, somnolence. Increased appetite & wt; euphoric mood, confusion, irritability, decreased libido, disorientation, insomnia; ataxia, abnormal coordination, tremor, dysarthria, memory impairment, disturbance in attention, paraesthesia, sedation, balance disorder, lethargy, amnesia; blurred vision, dysgraphia; vertigo; vomiting, dry mouth, constipation, flatulence, abdominal distension; erectile dysfunction; abnormal gait, feeling drunk, fatigue, edema, peripheral edema."],
+      "interactions": ["May potentiate the effects of ethanol & lorazepam. May cause resp failure & coma w/ other CNS depressant. Additive in the impairment of cognitive & gross motor function w/ oxycodone."],
+      "presentation_packaging": ["Capsule 75 mg x 30's. 150 mg x 30's."]
+    },
+    {
+      "id": "cb661cb1-5624-43df-aa60-687e19a12053",
+      "product_website": "",
+      "slug": "nervagest-plus",
+      "owner": "Natrapharm Products",
+      "category": [],
+      "medicine_name": "Nervagest ® Plus",
+      "brand_name": "Nervagest ® Plus",
+      "generic_name": "Pregabalin + Methylcobalamin",
+      "description": "Management of neuropathic pain associated w/ peripheral neuropathy; neuralgia; fibromyalgia. Adjunct therapy for adult patient w/ partial onset seizures.",
+      "image": "/products/second_twelve/nervagest-plus.png",
+      "regulatory": "℞",
+      "indication": ["Management of neuropathic pain associated w/ peripheral neuropathy; neuralgia; fibromyalgia. Adjunct therapy for adult patient w/ partial onset seizures."],
+      "dosage_and_administration": ["Initially 1 cap bid. Patient previously on gabapentin should have wash-out period of 1 wk prior to initiation of pregabalin."],
+      "formulation": [
+        {
+          "logo": "/products/second_twelve/nervagest-plus.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Pregabalin", "dosage": "150mg" },
+            { "name": "Methylcobalamin", "dosage": "750mcg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Take w/ or w/o food."],
+      "contraindication": ["Hypersensitivity."],
+      "special_precaution": ["Discontinue immediately if swelling of the face, mouth (tongue, lips, & gums), & neck (throat & larynx); if myopathy is diagnosed or suspected or if markedly elevated creatinine kinase levels occur. Should not be taken by patients w/ galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption. W/drawal symptoms. Suicidal behaviour & ideation; peripheral edema; encephalopathy. Weight gain; blurred vision; decreased platelet count; PR interval prolongation may occur. Patients w/ CHF NYHA class III or IV; history of drug abuse. Concomitant use w/ drugs potential to produce constipation eg, opioid analgesics. May cause dizziness & somnolence & impair ability to drive or operate machinery. Pregnancy & lactation."],
+      "adverse_reaction": ["Pregabalin: Dizziness, somnolence, headache, ataxia, asthenia, dry mouth, constipation, edema, blurred vision, weight gain, & difficulty with concentration/attention)."],
+      "interactions": ["Reduced absorption of vit B12 from the GIT w/ neomycin, aminosalicylic acid, histamine H2-antagonists, omeprazole & colchicine. Serum concentration may be decreased with the use of oral contraceptives. Parenteral chloramphenicol may attenuate the effect of vit B12 in anemia. May experience additive CNS side effects w/ opiates or benzodiazepines. May potentiate impairment of motor skills & sedating effects of alcohol. Methylcobalamin: May alter intestinal microflora & decrease the absorption of w/ antibiotics; metformin, para-aminosalicyclic acid & KCl. May decrease enterohepatic re-absorption w/ cholestyramine, colchicine or colestipol. Produce functional deficiency w/ nitrous oxide."],
+      "presentation_packaging": ["Capsule 75mg/70mcg x 30's"]
+    },
+    {
+      "id": "f2164b09-ade1-4233-89bc-3b265d5cd288",
+      "product_website": "",
+      "slug": "omacor",
+      "owner": "Patriot Pharmaceuticals Corp. Products",
+      "category": ["Antihyperlipidemia"],
+      "medicine_name": "Omacor ®",
+      "brand_name": "Omacor ®",
+      "generic_name": "Eicosapentaenoic acid ethyl ester, Docosahexaenoic acid ethyl ester",
+      "description": "Management of hypertriglyceridemia in adult patient at risk of ischemic heart disease &/or pancreatitis. Supplement to diet when appropriate & assiduous dietary measures alone are insufficient to produce an adequate response.",
+      "image": "/products/second_twelve/omacor.png",
+      "regulatory": "℞",
+      "indication": ["Isolated or predominant endogenous hypertriglyceridemia in patient at risk of ischemic heart disease &/or pancreatitis. Supplement to diet when appropriate & assiduous dietary measures alone are insufficient to produce an adequate response."],
+      "dosage_and_administration": ["Hypertriglyceridemia Initially 2 cap daily may be increased to 4 cap daily"],
+      "formulation": [
+        {
+          "logo": "/products/second_twelve/omacor.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Eicosapentaenoic acid ethyl ester", "dosage": "460mg" },
+            { "name": "Docosahexaenoic acid ethyl ester ", "dosage": "380mg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Take w/ food to avoid gastro intestinal disturbances (GI)."],
+      "contraindication": ["Hypersensitivity to Eicosapentaenoic acid (EPA) or Docosahexaenoic (DHA), soya (soya milk, soya beans)."],
+      "special_precaution": ["Thromboxane A2 production may fall during treatment. Monitor patients receiving anticoagulant or other drugs affecting coagulation (eg, ASA, warfarin & coumarin). Routine monitoring of the entire lipid profile; LDL-C especially in patients w/ type IV & V dyslipidemia. Not recommended as monotherapy in type IIb dyslipidemia. Regular monitoring of hepatic function (especially ALT) in patients w/ hepatic impairment. Pregnancy & lactation. Not recommended in childn"],
+      "adverse_reaction": ["Dyspepsia, nausea. Post Myocardial Infarction (MI): gastro intestinal disturbances (GI) disturbances. Hypertriglyceridemia: Eructation taste perversion"],
+      "interactions": ["Increased bleeding time w/ acetylsalicylic acid; warfarin & coumarin."],
+      "presentation_packaging": ["Softgel cap 28's."]
+    },
+    {
+      "id": "b43c8fc1-bbc1-4f88-b0ad-28826b9b06f2",
+      "product_website": "",
+      "slug": "peldacyn-oral-peldacyn-ampoule",
+      "owner": "Natrapharm Products",
+      "category": ["Antibacterial"],
+      "medicine_name": "Peldacyn ® Oral / Peldacyn ® Ampoule",
+      "brand_name": "Peldacyn ® Oral / Peldacyn ® Ampoule",
+      "generic_name": "Clindamycin (cap: HCl; inj: phosphate)",
+      "description": "Management of infections of the upper resp tract (eg, chronic or recurrent tonsillitis, pharyngitis, sinusitis, otitis media & scarlet fever) & lower resp tract (eg, bacterial bronchitis, pneumonia, empyema, lung abscess) infections; difficult to treat skin & soft tissue infections (eg, acne, furunculosis), cellulitis), impetigo, abscesses, wound infections, erysipelas, nail wall infections); bone & joint infections (eg, osteomyelitis & septic arthritis); gynaecological infections (eg, endometritis, tubo-ovarian abscess, salpingitis, infections of the cervical area & inflammatory diseases of the pelvic area in combination w/ antibiotic effective against gm -ve aerobic bacteria); intra-abdominal infections (eg, peritonitis & abdominal abscess in combination w/ antibiotic effective against gm -ve aerobic bacteria; dental infections (eg, periodontal abscess & periodontitis). As monotherapy for cervicitis caused by Chlamydia trachomatis .",
+      "image": "/products/second_twelve/peldacyn-oral-peldacyn-ampoule.png",
+      "regulatory": "℞",
+      "indication": ["Upper resp tract (eg, chronic or recurrent tonsillitis, pharyngitis, sinusitis, otitis media & scarlet fever) & lower resp tract (eg, bacterial bronchitis, pneumonia, empyema, lung abscess) infections; difficult to treat skin & soft tissue infections (eg, acne, furunculosis), cellulitis), impetigo, abscesses, wound infections, erysipelas, nail wall infections); bone & joint infections (eg, osteomyelitis & septic arthritis); gynaecological infections (eg, endometritis, tubo-ovarian abscess, salpingitis, infections of the cervical area & inflammatory diseases of the pelvic area in combination w/ antibiotic effective against gm -ve aerobic bacteria); intra-abdominal infections (eg, peritonitis & abdominal abscess in combination w/ antibiotic effective against gm -ve aerobic bacteria; dental infections (eg, periodontal abscess & periodontitis). As monotherapy for cervicitis caused by Chlamydia trachomatis ."],
+      "dosage_and_administration": ["Cap Adult, elderly & adolescent >14 yr 600-1,800 mg/day in 3-4 equal divided doses. Childn & adolescent 8-25 mg/kg/day. Infections due to β-haemolytic strep Duration of treatment: At least 10 days. IM/IV Adult Serious infection 600-1,200 mg/day divided in 2-4 equal doses. More severe infection 1,200-2,700 mg/day divided in 2-4 equal doses. Infuse over at least 10-60 min. Childn >1 mth Serious infection 15-25 mg/kg/day in 3-4 equal doses. More severe infection 25-40 mg/kg/day in 3-4 equal doses. Neonate < 1 mth 15-20 mg/kg/day in 3-4 equal doses."],
+      "formulation": [
+        {
+          "logo": "/products/second_twelve/peldacyn-oral-peldacyn-ampoule.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Clindamycin (cap: HCl; inj: phosphate)", "dosage": "150mg/mL IV/IM (2ML & 4mL " }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+    "pharmacokinetics": [],
+    "precaution": [],
+    "warning": [],
+      "administration": ["Clindamycin should not be injected intravenously undiluted as a bolus and should not be infused over atleast 10-60 mins as indicated as follows. Drug may be administered in the form of a single rapid infusion of the 1st dose followed by continuous IV infusion as follows, for maintaining serum clindamycin level."],
+      "contraindication": [" Hypersensitivity to clindamycin or lincomycin. Inj: Treatment of meningitis; nonbacterial upper resp or mild bacterial infections. Lactation."],
+      "special_precaution": ["Pregnancy. Should not be taken during lactation. Cap: Severe hypersensitivity reactions including severe skin reactions eg, drug reaction w/ eosinophilia & systemic symptoms, Stevens-Johnson syndrome, toxic epidermal necrolysis & acute generalised exanthematous pustulosis. Patients w/ existing penicillin allergy. Consider diagnosis of Clostridium difficile-associated diarrhea in patients who present diarrhea subsequent to the administration of antibacterials. History of GI disease especially colitis. Not to be used in the treatment of meningitis. Overgrowth of non-susceptible organisms particularly yeasts. Renal & hepatic function tests should be performed in prolonged therapy. Inj: Do not inj IV undiluted as a bolus. Patients w/ history of colitis, renal or hepatic disease; dysphagia. Atopic individuals. Neonate, immature fetus. Elderly"],
+      "adverse_reaction": ["Cap: Pseudomembranous colitis; eosinophilia; diarrhea; maculopapular rash; abnormal liver function test. Inj: Local & hypersensitivity reactions; GI, skin, hepatic, renal, musculoskeletal, hematopoietic & nervous system effects; shock."],
+      "interactions": ["May enhance action of neuromuscular blocking agents. In vitro antagonism w/ erythromycin. May reduce clearance w/ CYP3A4 & CYP3A5 inhibitors. May increase clearance w/ CYP3A4 & CYP3A5 inducers. Cross-resistance w/ lincomycin. Increased PT/INR &/or bleeding w/ vit K antagonist (eg, warfarin, acenocoumarol & fluindione)."],
+      "presentation_packaging": ["300 mg x 30's . Soln for inj 150 mg/mL x 2 mL x 1's , 10's ; 4 mL x 1's , 10's ."]
+    },
+
+
+    {
+      "id": "f5a3d2c1-1b2c-4d3e-9f6b-7a8e9c1d2f3a",
+      "product_website": "",
+      "slug": "peprazom-oral-vial",
+      "owner": "Natrapharm Products",
+      "category": ["Antiulcerant"],
+      "medicine_name": "Peprazom® Oral / Vial",
+      "brand_name": "Peprazom® Oral / Vial",
+      "generic_name": "Omeprazole",
+      "description": "Management of gastric and duodenal ulcers, gastroesophageal reflux disease (GERD), and Zollinger-Ellison syndrome.",
+      "image": "/products/third_twelve/peprazom-oral-vial.png",
+      "regulatory": "",
+      "indication": [" Peprazom PUD & NSAID-associated ulceration, GERD & Zollinger-Ellison syndrome. Peprazom IV GERD in patient w/ esophagitis &/or severe symptoms of reflux; healing & prevention of gastric & duodenal ulcers associated w/ NSAID therapy; prevention of rebleeding following therapeutic endoscopy for acute bleeding gastric & duodenal ulcers in adult. GERD in patient w/ erosive reflux esophagitis &/or severe symptoms of reflux in childn & adolescent 1-18 yr. ."],
+      "dosage_and_administration": ["Peprazom Adult & adolescent (from 12 yr) Erosive reflux esophagitis 40 mg once daily for 4 wk. Long-term management of patient w/ healed esophagitis to prevent relapse 20 mg once daily. Symptomatic treatment of GERD 20 mg once daily in patient w/o esophagitis. Subsequently 20 mg once daily when needed. Adult Treatment & prevention of H. pylori-associated ulcers Esomeprazole 20 mg w/ amoxicillin 1 g + clarithromycin 500 mg, all bid for 7 days. Healing of gastric ulcers associated w/ NSAID therapy 20 mg once daily for 4-8 wk. Prevention of gastric & duodenal ulcers associated w/ NSAID therapy in patient at risk 20 mg once daily. Prevention of rebleeding of gastric & duodenal ulcers 40 mg once daily for 4 wk after IV-induced prevention of rebleeding of peptic ulcers. Zollinger-Ellison syndrome Initially 40 mg bid. Max: 80-160 mg. Doses >80 mg daily should be divided & given bid. Peprazom IV Adult Reflux esophagitis 40 mg once daily. Reflux disease 20 mg once daily. Healing of gastric ulcers associated w/ NSAID therapy 20 mg once daily. Gastric & duodenal ulcers associated w/ NSAID therapy 20 mg once daily. Prevention of rebleeding of gastric & duodenal ulcers 80 mg bolus infusion over 30 min followed by continuous IV infusion of 8 mg/hr over 72 hr. Severe liver impairment in patient w/ GERD Max: 20 mg daily. Severe liver impairment in patient w/ bleeding ulcers Initial bolus dose of 80 mg, followed by continuous IV infusion 4 mg/hr for 71.5 hr. Childn 12-18 yr Erosive reflux esophagitis 40 mg once daily. GERD 20 mg once daily. 1-11 yr < 20 kg Erosive reflux esophagitis 10 mg once daily. ≥20 kg 10 mg or 20 mg once daily. GERD 10 mg once daily."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/peprazom-oral-vial.png",
+          "note": "Each unit contains:",
+          "components": [
+            { "name": "Omeprazole", "dosage": "20mg" },
+            { "name": "Omeprazole", "dosage": "40mg capsule" },
+            { "name": "Omeprazole", "dosage": "40mg IV" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Take 1 hr before meals. For patients w/ swallowing difficulties, open cap & disperse contents in a glass w/ 15 mL non-carbonated water. Do not use other liqd. Stir gently & leave for a few min to thicken. Stir again & drink immediately or w/in 30 min. Do not chew/crush granules. Mixt may also be administered via a nasogastric tube."],
+      "contraindication": [" Hypersensitivity to esomeprazole, substituted benzimidazoles. Concomitant use w/ nelfinavir. Childn < 12 yr. Peprazom Lactation."],
+      "special_precaution": ["May increase risk of GI infection. Co-administration w/ atazanavir. Pregnancy. Peprazom Exclude malignancy in the presence of significant unintentional wt loss, recurrent vomiting, dysphagia, hematemesis or melena; & when gastric ulcer is suspected or present. Monitor long-term treatment (particularly for >1 yr). Fructose intolerance, glucose-galactose malabsorption or sucrase-isomaltase insufficiency. Contain parahydroxybenzoate. Severe renal or hepatic impairment. Peprazom IV Hypomagnesemia. Risk of hip, wrist & spine fracture. Achlorhydria. Lactation."],
+      "adverse_reaction": ["Headache; abdominal pain, constipation, diarrhea, flatulence, nausea/vomiting. Peprazom IV Administration site reactions."],
+      "interactions": ["May decrease absorption of ketoconazole & itraconazole. Increase plasma conc of diazepam, citalopram, imipramine, clomipramine, phenytoin. Warfarin or other coumarine derivatives; cisapride, clarithromycin. Peprazom IV Increased absorption w/ digoxin. Decreased serum levels w/ atazanavir & nelfinavir; rifampicin & St. John's wort. Increased Cmax & AUC w/ voriconazole; cilostazol. Elevated INR w/ warfarin or other coumarin derivatives."],
+      "presentation_packaging": ["Peprazom DR cap 20 mg x 14's . 40 mg x 14's. Peprazom IV powd for inj (vial) 40 mg x 1's"]
+    },
+    {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "product_website": "",
+      "slug": "platexan",
+      "owner": "Patriot Pharmaceuticals Corp. Products",
+      "category": ["Antithrombotic"],
+      "medicine_name": "Platexan®",
+      "brand_name": "Platexan®",
+      "generic_name": "Clopidogrel bisulfate",
+      "description": "Used to reduce the risk of myocardial infarction and stroke in patients with atherosclerotic vascular disease.",
+      "image": "/products/third_twelve/platexan.png",
+      "regulatory": "℞",
+      "indication": ["Prevention of atherosclerotic events in peripheral arterial disease, or w/in 35 days of Myocardial Infarction (MI), or w/in 6 mth of ischemic stroke, or in acute coronary syndrome w/o ST-segment elevation."],
+      "dosage_and_administration": ["Prophylaxis of thromboembolic events 75 mg once daily. Management of acute coronary syndromes including unstable angina & non-Q wave MI Single 300 mg loading dose followed by 75 mg daily."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/platexan.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Clopidogrel", "dosage": "75 mg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Taken with or without food"],
+      "contraindication": [],
+      "special_precaution": [],
+      "adverse_reaction": ["Dyscrasias. Serum sickness, interstitial pneumonitis, erythema multiforme, Stevens-Johnson syndrome, lichen planus, myalgia (rarely). Should be stopped 5-7 days before elective surgery"],
+      "interactions": [" Increase risk of bleeding w/ anticoagulants, antiplatelets & NSAIDs. Reduce the conversion of bupropion to its active metabolite. Myopathy & rhabdomyolysis in patients receiving ciclosporin w/ statins (atorvastatin, lovastatin or simvastatin)."],
+      "presentation_packaging": ["Tablet 75 mg x 30's."]
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "product_website": "",
+      "slug": "pneumotyl",
+      "owner": "Natrapharm Products",
+      "category": ["Mucolytic"],
+      "medicine_name": "Pneumotyl®",
+      "brand_name": "Pneumotyl®",
+      "generic_name": "Acetylcysteine",
+      "description": "Used for the treatment of respiratory conditions associated with thick mucus such as chronic bronchitis and COPD.",
+      "image": "/products/third_twelve/pneumotyl.png",
+      "regulatory": "℞",
+      "indication": ["Secretolytic therapy in acute & chronic bronchopulmonary diseases accompanied by Impaired formation & transport of mucus"],
+      "dosage_and_administration": ["200 mg Adult & adolescent fro 14 year 1 tab bid-tid (equiv to 400-600 mg/day). Children 2-5 year 1/2 tab bid-tid (equiv to 200-300 mg/day). 600 mg Adult & adolescent from 14 year 1/2 tab bid or 1 tab once daily (equiv to 600 mg/day)."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/pneumotyl.png",
+          "note": "Each unit contains:",
+          "components": [
+            { "name": "Acetylcysteine", "dosage": "200 mg" },
+            { "name": "Acetylcysteine", "dosage": "600 mg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": [" Dissolve tab in a glass of water."],
+      "contraindication": ["Hypersensitivity. Active peptic ulceration. Children < 2 yr.s"],
+      "special_precaution": ["Patients w/ bronchial asthma & anamnestic ulcers. Perform appropriate measures (eg, drainage & aspiration) if patient is unable to expectorate sufficiently. Pregnancy & lactation."],
+      "adverse_reaction": [],
+      "interactions": ["May cause a dangerous secretory congestion w/ antitussives. Inactivation of antibiotics. May potentiate vasodilatory effect of nitroglycerin."],
+      "presentation_packaging": ["200 mg x 20's . 600 mg x 10's."]
+    },
+    {
+      "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+      "product_website": "",
+      "slug": "podevta",
+      "owner": "",
+      "category": ["Antidiabetic"],
+      "medicine_name": "Podevta®",
+      "brand_name": "Podevta®",
+      "generic_name": "Insulin glargine",
+      "description": "Diabetes Mellitus where treatment w/ insulin is required in adult, adolescent & childn ≥2 yr.",
+      "image": "/products/third_twelve/podevta.png",
+      "regulatory": "℞",
+      "indication": ["Diabetes Mellitus where treatment w/ insulin is required in adult, adolescent & childn ≥2 yr."],
+      "dosage_and_administration": ["SC Individualized dosage. Administer once daily at the same time everyday. Dose & timing should be individually adjusted. Type 2 diabetes on oral antidiabetic agents Initially 10 IU once daily & subsequently adjusted individually."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/podevta.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Insulin glargine", "dosage": "100U/mL (3.64mg Insulin Glargine equivalent to 100U Human insulin)" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": [],
+      "contraindication": ["Hypersensitivity."],
+      "special_precaution": [" Not for the treatment of diabetic ketoacidosis. Hypoglycemia. Intercurrent illness. Renal & severe hepatic impairment. Monitor blood glucose regularly & require intensified metabolic monitoring. May impair ability to drive or operate machinery. Pregnancy & lactation. Childn < 2 yr. Elderly."],
+      "adverse_reaction": [" Hypoglycemia, temporary visual impairment, lipodystrophy, inj site & allergic reactions (eg, redness, pain, itching, hives, swelling & inflammation)."],
+      "interactions": ["May increase blood glucose lowering effect & susceptibility to hypoglycemia w/ oral antidiabetic products, ACE inhibitors, salicylates, disopyramide, fibrates, fluoxetine, MAOIs, pentoxifylline, propoxyphene, sulfonamides. May reduce blood lowering effect w/ corticosteroids, danazol, diazoxide, diuretics, sympathomimetic agents (eg, epinephrine, salbutamol, terbutaline), glucagon, INH, phenothiazine derivates, somatropin, thyroid hormones, estrogens, progestogens (eg, OCs), PIs & atypical antipsychotic medications (eg, olanzapine & clozapine). Potentiated or weakened blood glucose lowering effect w/ β-blockers, clonidine, lithium salts & alcohol. Pentamidine may cause hypoglycemia, (sometimes) followed by hyperglycemia. Reduced or no signs of adrenergic counter regulation w/ β-blockers, clonidine, guanethidine & reserpine."],
+      "presentation_packaging": ["Solution for inj (pre-filled pen w/ cartridge) 100 u/mL x 3 mL x 5's ."]
+    },
+    {
+      "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+      "product_website": "",
+      "slug": "proursan",
+      "owner": "Natrapharm Products",
+      "category": ["Bile Acid and Derivative"],
+      "medicine_name": "ProUrsan®",
+      "brand_name": "ProUrsan®",
+      "generic_name": "Ursodeoxycholic Acid",
+      "description": "Used for the treatment of primary biliary cholangitis and dissolution of gallstones.",
+      "image": "/products/third_twelve/proursan.png",
+      "regulatory": "℞",
+      "indication": ["Dissolution of cholesterol gallstones in the gall bladder. Symptomatic treatment of primary biliary cholangitis (PBC); biliary reflux gastritis; cholestatic liver disease. Hepatobiliary disorder associated w/ cystic fibrosis in childn 6 yr-<18 yr."],
+      "dosage_and_administration": ["Dissolution of cholesterol gallstones Adult >100 kg 5 cap (1,250 mg); 81-100 kg 4 cap (1,000 mg); 61-80 kg 3 cap (750 mg); up to 60 kg 2 cap (500 mg). Primary biliary cirrhosis stage I & II & other conditions associated w/ intrahepatic cholestasis 10-15 mg/kg daily (2-6 cap) in 2-3 divided doses. Reactive gastritis in duodenogastritis reflux Adult 1 cap (250 mg) daily for 10-14 days. Childn >2 yr 10 mg/kg daily. Children & adolescents w/ cystic fibrosis 6-18 yr 20 mg/kg daily in 2-3 divided doses, w/ further increase to 30 mg/kg daily if necessary."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/proursan.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Ursodeoxycholic Acid", "dosage": "250 mg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Swallow whole with some liquid. Do not chew. Take w/ or w/o food"],
+      "contraindication": ["Hypersensitivity. Acute inflammation of the gallbladder or bile ducts; occlusion of extrahepatic bile duct (choledochus or cystic duct); frequent episodes of biliary colics; radiopaque calcified gallstones; impaired contractility of the gallbladder."],
+      "special_precaution": ["Monitor AST, ALT & γ-GT every 4 wk, thereafter every 3 months to allow timely detection of a potential hepatic damage especially in patients w/ advanced stage of primary biliary cirrhosis. Reduce treatment if diarrhea occurs. Discontinue therapy in case of persistent diarrhea. Should not be used if the gallbladder cannot be imagined using radiography & in cases of calcified gallstones. Women of childbearing potential. Pregnancy & lactation. Not suitable for childn <6 yr."],
+      "adverse_reaction": ["Loose stools or diarrhea during therapy."],
+      "interactions": ["Inhibition of absorption & efficacy w/ cholestyramine, colestipol or antacids containing Aluminum hydroxide &/or smectite (Aluminum oxide). Affect the absorption of ciclosporin. Reduce the absorption of ciprofloxacin. Decreased Cmax & AUC of nitrendipine. Decreased therapeutic effect of dapsone. May increase hepatic cholesterol secretion & biliary lithiasis w/ oestrogenic hormones & blood cholesterol-lowering agents eg, clofibrate."],
+      "presentation_packaging": ["Capsule 250 mg x 30's"]
+    },
+    {
+      "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+      "product_website": "",
+      "slug": "proursan-forte",
+      "owner": "Natrapharm Products",
+      "category": ["Bile Acid and Derivative"],
+      "medicine_name": "ProUrsan® Forte",
+      "brand_name": "ProUrsan® Forte",
+      "generic_name": "Ursodeoxycholic Acid",
+      "description": "Dissolution of cholesterol gallstones in the gall bladder. Symptomatic treatment of primary biliary cholangitis (PBC); biliary reflux gastritis; cholestatic liver disease. Hepatobiliary disorder associated w/ cystic fibrosis in childn 6 yr-<18 yr.",
+      "image": "/products/third_twelve/proursan-forte.png",
+      "regulatory": "℞",
+      "indication": ["Dissolution of cholesterol gallstones in the gall bladder. Symptomatic treatment of primary biliary cholangitis (PBC); biliary reflux gastritis; cholestatic liver disease. Hepatobiliary disorder associated w/ cystic fibrosis in childn 6 yr-<18 yr."],
+      "dosage_and_administration": ["Dissolution of cholesterol gallstones Approx 10 mg/kg corresponding to: >100 kg 2½ Film coated tab, 81-100 kg 2 Film coated tab, 61-80 kg 1½ Film coated tab, up to 60 kg 1 Film coated tab. Symptomatic treatment of primary biliary cholangitis (PBC) Depends on body weight & ranges from 1½-3½ Film coated tab (14±2 mg/kg). 1st 3 months of treatment: Should be divided over the day. May be taken once daily in the evening if liver values improve. Childn w/ cystic fibrosis 6 yr-<18 yr 20 mg/kg/day in 2-3 divided doses, w/ further increase to 30 mg/kg/day if necessary."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/proursan-forte.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Ursodeoxycholic Acid", "dosage": "500 mg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Swallow whole with some liquid. Do not chew. Take w/ or w/o food. "],
+      "contraindication": ["Hypersensitivity to bile acids. Acute inflammation of the gallbladder & biliary tract; occlusion of biliary duct (occlusion of the common bile duct or a cystic duct); frequent episodes of biliary colic; radiopaque calcified gallstones; impaired contractility of the gallbladder. Unsuccessful portoenterostomy or w/o recovery of good bile flow in childn w/ biliary atresia."],
+      "special_precaution": ["Monitor liver function parameters every 4 week during the 1st 3 month, thereafter every 3 month. Visualize gallbladder w/ overview (oral cholecystography) & occlusion views in standing & supine positions (ultrasound control) 6-10 mth after the beginning of treatment. Should not be used if gallbladder cannot be visualised on x-ray images or in cases of calcified gallstones, impaired contractility of the gallbladder or frequent episodes of biliary colic. Decompensation of the hepatic cirrhosis (very rare); discontinue if persistent diarrhea occurs. Long-term high dose therapy in patients w/ primary sclerosing cholangitis. Female patients should use an effective non-hormonal method of contraception. Pregnancy."],
+      "adverse_reaction": ["Pasty stools or diarrhea."],
+      "interactions": ["May inhibit absorption & efficacy w/ cholestyramine, colestipol or antacids containing Al hydroxide &/or smectite (Al oxide). May affect the absorption of ciclosporin. May reduce the absorption of ciprofloxacin. Slightly elevate plasma levels of rosuvastatin. Reduce peak plasma conc (Cmax) & AUC of nitrendipine. Reduced therapeutic effect of dapsone. Increase hepatic cholesterol secretion & biliary lithiasis w/ oestrogenic hormones & blood cholesterol lowering agents eg, clofibrate."],
+      "presentation_packaging": ["Film Coated Tablet 500mg x 50's"]
+    },
+    {
+      "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
+      "product_website": "",
+      "slug": "renoguard",
+      "owner": "Natrapharm Products",
+      "category": ["Amino acids, including combination with Polypeptides"],
+      "medicine_name": "Renoguard®",
+      "brand_name": "Renoguard®",
+      "generic_name": "Renoguard®",
+      "description": "Prevention and therapy of damage due to faulty or deficient protein metabolism in chronic renal insufficiency in connection with limited protein in food of 40 g per day and less in patients with glomerular filtration rate (GFR) below 25 mL/min.",
+      "image": "/products/third_twelve/renoguard.png",
+      "regulatory": "℞",
+      "indication": ["Prevention and therapy of damage due to faulty or deficient protein metabolism in chronic renal insufficiency in connection with limited protein in food of 40 g per day and less in patients with glomerular filtration rate (GFR) below 25 mL/min."],
+      "dosage_and_administration": ["Adult >70 kg 4-8 tab tid."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/renoguard.png",
+          "note": "Each vial contains:",
+          "components": [
+            {
+              "name": "Amino acids and Polypeptides",
+              "dosage": "Varies per formulation"
+            },
+            {
+              "name": "Ketoanalogues + essential amino acids",
+              "dosage": "Ca-3-methyl-2-oxo-valerate (α-ketoanalogue to isoleucine, Ca salt) 67 mg, Ca-4-methyl-2-oxo-valerate (α-ketoanalogue to leucine, Ca salt) 101 mg, Ca-2-oxo-3-phenylpropionate (α-ketoanalogue to phenylalanine, Ca salt) 68 mg, Ca-3-methyl-2-oxo-butyrate (α-ketoanalogue to valine, Ca salt) 86 mg, Ca-DL-2-hydroxy-4-(methylthio) butyrate (α-hydroxyanalogue to methionine, Ca salt) 59 mg, L-lysine acetate (equiv to 75 mg L-lysine) 105 mg, L-threonine 53 mg, L-tryptophan 23 mg, L-histidine 38 mg, L-tyrosine 30 mg. Total nitrogen content/tab: 36 mg, Ca/tab: 1.25 mmol equiv to 0.05 g"
+            }
+          ]
+        }
+      ],
+
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": [],
+      "contraindication": ["Hypersensitivity to ≥1 amino acids or idiosyncratic reaction to ketoanalogues of essential amino acids. Metabolic disorders associated with impaired nitrogen utilization; hypercalcemia, disturbed amino acid metabolism. Severe liver diseases & hepatic coma."],
+      "special_precaution": ["Patients with severe heart disease. Ensure sufficient supply of calories. Regular evaluation of serum Ca level & laboratory determinations. Parenteral regimens should include non-protein calories adequate for weight maintenance if patient requires extended period of nutritional support. Pregnancy & Lactation."],
+      "adverse_reaction": ["Hypercalcemia; generalized flushing, fever and nausea. Vomiting, abdominal pain, diarrhea & fatigue may occur at the beginning of therapy."],
+      "interactions": ["Increase of serum Ca level or intensification w/ Ca-containing medicaments. Interfered absorption w/ sparingly soluble compound w/ Ca (eg, tetracycline)."],
+      "presentation_packaging": ["Film coated tablet 600 mg x 100's."]
+    },
+    {
+      "id": "a7b8c9d0-e1f2-4a3b-5c6d-7e8f9a0b1c2d",
+      "product_website": "",
+      "slug": "ruzit",
+      "owner": "Natrapharm Products",
+      "category": ["Antibacterial"],
+      "medicine_name": "Ruzit",
+      "brand_name": "Ruzit",
+      "generic_name": "Azithromycin",
+      "description": "azithromycin: Upper respiratory tract infections, including sinusitis, pharyngitis, tonsillitis",
+      "image": "/products/third_twelve/ruzit.png",
+      "regulatory": "℞",
+      "indication": [
+        "azithromycin: Upper respiratory tract infections, including sinusitis, pharyngitis, tonsillitis",
+        "Lower respiratory tract infections, including bronchitis and pneumonia",
+        "Acute otitis media",
+        "Skin and soft tissue infections",
+        "Uncomplicated genital infections caused by Chlamydia trachomatis or Neisseria gonorrhoeae (non-multi-resistant strains)"
+      ],
+      "dosage_and_administration": ["The dosage in children and adolescents up to 45 kg body weight (KG) is based on the body weight (BW), taking either 10 mg once a day for 3 days in a 3-day regimen. Azithromycin per kg BW or alternatively in a 5-day therapy schedule on the first day 10 mg/kg BW and 5 mg/kg BW on days 2 to 5. Adults and adolescents over 45 kg body weight (KG) usually receive a total dose of 1500 mg azithromycin, which can be taken either according to the 3-day therapy schedule or the 5-day therapy schedule."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/ruzit.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Azithromycin", "dosage": "Each 5 ml Powder for suspension contains: Azithromycin (as monohydrate).... 200mg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Shake well until a homogenous suspension is achieved. For administration the syringe adapter should be placed in the neck of the bottle and the stopper should be opened. Take w/ food."],
+      "contraindication": ["Hypersensitivity to the active substance, erythromycin, any macrolide or ketolide antibiotic, or to any of the excipients."],
+      "special_precaution": ["Hypersensitivity. Caution in patients with significant hepatic disease, patients receiving ergot derivatives, patients with severe renal impairment and patients with neurological and psychiatric disorders.Prolonged cardiac repolarization and QT interval."],
+      "adverse_reaction": ["Anorexia; dizziness, headache, paraesthesia, dysgeusia; visual impairment; deafness; diarrhoea, abdominal pain, nausea, flatulence, abdominal discomfort, loose stools; rash, pruritus and fatigue."],
+      "interactions": ["P-gycloprotein substrates such as digoxin and colchicine, has been reported to result in increased serum levels of P-glycoprotein substrates. Ergot derivatives possible of ergotism."],
+      "presentation_packaging": ["Oral Suspension: 200mg/5ml in 60 mL HDPE Plastic Bottle; Box of 1's; Net content: 20ml"]
+    },
+    {
+      "id": "b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e",
+      "product_website": "",
+      "slug": "stelix",
+      "owner": "Natrapharm Products",
+      "category": ["Leukotriene Receptor Antagonist/Antihistamine"],
+      "medicine_name": "Stelix®",
+      "brand_name": "Stelix®",
+      "generic_name": "Montelukast Sodium, Levocetirizine dihydrochloride",
+      "description": "Chronic allergic conditions eg, seasonal allergic rhinitis, perennial allergic rhinitis, rhinitis associated w/ asthma.",
+      "image": "/products/third_twelve/stelix.png",
+      "regulatory": "℞",
+      "indication": ["Chronic allergic conditions eg, seasonal allergic rhinitis, perennial allergic rhinitis, rhinitis associated w/ asthma."],
+      "dosage_and_administration": ["Adult >15 yrs. 1 tab once daily."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/stelix.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Montelukast Sodium", "dosage": "10 mg" },
+            { "name": "levocetirizine dihydrochloride", "dosage": "5 mg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Take with or without food. Take in the morning or evening."],
+      "contraindication": ["Hypersensitivity to montelukast Na, levocetirizine or cetirizine. Severe renal impairment (CrCl < 10 mL/min). Galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption."],
+      "special_precaution": ["May impair ability to drive or operate machinery. Renal & hepatic impairment. Pregnancy & lactation. Childn < 15 yr. Elderly. Montelukast: Not for the reversal of bronchospasm in acute asthma attacks, including status asthmaticus. Not to be used as monotherapy for the treatment & management of exercise-induced bronchospasm. Avoid concurrent treatment w/ aspirin & NSAIDs. Levocetirizine diHCl: Avoid alcohol intake. Galactose intolerance, the Lapp lactase deficiency or glucose-galactose malabsorption."],
+      "adverse_reaction": ["Montelukast: Dyspepsia, abdominal pain, rash, dizziness, headache, fatigue, fever, trauma, cough, nasal congestion, flu. Levocetirizine: Somnolence, fatigue, nasopharyngitis, dry mouth & pharyngitis"],
+      "interactions": ["Montelukast: Decrease AUC w/ phenobarb or rifampin."],
+      "presentation_packaging": ["Film coated tablet 100's."]
+    },
+    {
+      "id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f",
+      "product_website": "",
+      "slug": "tdl-oral-tdl-ampoule",
+      "owner": "Patriot Pharmaceuticals Corp. Products",
+      "category": ["Opioid Analgesic"],
+      "medicine_name": "TDL® Oral / TDL® Ampoule",
+      "brand_name": "TDL® Oral / TDL® Ampoule",
+      "generic_name": "Tramadol Hydrochloride",
+      "description": "Moderate to severe acute & chronic pain, painful diagnostic procedures & surgery.",
+      "image": "/products/third_twelve/tdl-oral-ampoule.png",
+      "regulatory": "℞",
+      "indication": ["Moderate to severe acute & chronic pain, painful diagnostic procedures & surgery."],
+      "dosage_and_administration": ["Cap Individualized dosage. 50-100 mg every 4-6 hr. Max: 400 mg/day. Inj 50-100 mg IV every 4-6 hr over 2-3 min or by IV infusion. Post-op pain Initially 100 mg followed by 50 mg every 10-20 min if necessary. Max (including initial dose): 250 mg in the 1st hr. Doses are 50-100 mg every 4-6 hr to total daily dose of 600 mg. CrCl < 30 mL/min & severe hepatic impairment Dosage interval should be increased to 12 hr. Max: 200 mg/day."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/tdl-oral-ampoule.png",
+          "note": "Each unit contains:",
+          "components": [
+            { "name": "Tramadol", "dosage": "Cap-50mg" },
+            { "name": "Tramadol", "dosage": "IM/IV 50mg/mL" },
+            { "name": "Tramadol", "dosage": "100mg/2mL" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Take with or without food"],
+      "contraindication": [],
+      "special_precaution": ["Renal or liver impairment. Avoid in severe renal impairment. Patients w/ history of epilepsy or those susceptible to seizures. Do not take during light planes of general anesth. May have lower potential for producing dependence than morphine."],
+      "adverse_reaction": [" Nausea, vomiting, constipation, drowsiness & confusion; tolerance (long-term use). Respiratory depression; hypotension, Hypertension; anaphylaxis, hallucinations."],
+      "interactions": ["Diminish analgesic activity by reducing serum concentration w/ carbamazepine. Increased risk of seizures w/ other drugs that have potential to lower seizure threshold. Inhibited reuptake of noradrenaline & serotonin. Enhance monoaminergic neurotransmission of lithium, Tricyclic antidepressants (TCAs) & Selective serotonin reuptake inhibitors (SSRIs). Inj: Incompatible w/ inj of diazepam, diclofenac Na, indomethacin, midazolam & piroxicam."],
+      "presentation_packaging": ["Cap 50 mg x 50's. Inj (amp) 50 mg/mL x 2 mL x 10's."]
+    },
+    {
+      "id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a",
+      "product_website": "",
+      "slug": "tdl-plus",
+      "owner": "Patriot Pharmaceuticals Corp. Products",
+      "category": ["Opioid Analgesic"],
+      "medicine_name": "TDL® Plus",
+      "brand_name": "TDL® Plus",
+      "generic_name": "Tramadol + Paracetamol",
+      "description": "Used for management of moderate to severe pain with added antipyretic effect.",
+      "image": "/products/third_twelve/tdl-plus.png",
+      "regulatory": "℞",
+      "indication": ["Moderate to severe pain, fever reduction."],
+      "dosage_and_administration": ["1-2 tablets every 6 hours as needed."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/tdl-plus.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Tramadol + Paracetamol", "dosage": "37.5 mg + 325 mg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Taken with or without food"],
+      "contraindication": [" Hypersensitivity. Acute intoxication w/ alcohol, hypnotics, narcotics, centrally acting analgesics, opioids, or psychotropic drugs."],
+      "special_precaution": [" Increased risk of seizures patients w/ epilepsy, history of seizures or in those w/ recognized risk for seizure; in combination w/ SSRIs, antidepressants or anorectics, Tricyclic antidepressants (TCA's) & other tricyclic compounds eg, cyclobenzapine, promethazine) or opioids, Monoamine oxidase inhibitors (MAOIs), neuroleptics or other drugs that reduce seizure's threshold. Anaphylactoid reactions. Patients w/ risk of resp depression, those receiving CNS depressants, increased intra-cranial pressure or head injury. Chronic heavy alcohol abusers. W/drawal symptoms may occur w/ abrupt discontinuation. Serious skin reactions eg, acute generalized exanthematous pustulosis, Stevens-Johnson syndrome & toxic epidermal necrolysis. Impaired renal function. Severe hepatic impairment. May impair ability to drive & use machines. Pregnancy & lactation. Childn < 16 yr."],
+      "adverse_reaction": ["Nausea, dizziness, somnolence."],
+      "interactions": ["Reduced analgesic effect w/ carbamazepine. Increased INR w/ warfarin-like compd. MAOIs & SSRIs. Tramadol: Increased conc w/ quinidine. Inhibited metabolism w/ CYP2D6 inhibitors eg, fluoxetine, paroxetine & amitriptyline."],
+      "presentation_packaging": ["Film coated tablet 10's, 50's."]
+    },
+    {
+      "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
+      "product_website": "",
+      "slug": "telatraz",
+      "owner": "Natrapharm Products",
+      "category": ["Angiotensin II Receptor Blocker (ARB)"],
+      "medicine_name": "Telatraz®",
+      "brand_name": "Telatraz®",
+      "generic_name": "Telmisartan",
+      "description": "Essential HTN in adults. Reduction of the risk of MI, stroke, or death from CV causes in patient ≥55 yr at high risk of developing major CV events who are unable to take ACE inhibitors.",
+      "image": "/products/third_twelve/telatraz.png",
+      "regulatory": "℞",
+      "indication": ["Essential HTN in adults. Reduction of the risk of MI, stroke, or death from CV causes in patient ≥55 yr at high risk of developing major CV events who are unable to take ACE inhibitors."],
+      "dosage_and_administration": ["Essential Hypertension 40 mg once daily. Max: 80 mg once daily. Severe Hypertension Up to 160 mg alone or in combination w/ hydrochlorothiazide 12.5-25 mg daily. Cardiovascular prevention 80 mg once daily. Mild to moderate hepatic impairment Do not exceed 40 mg once daily."],
+      "formulation": [
+        {
+          "logo": "/products/third_twelve/telatraz.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Telmisartan", "dosage": " 40 mg / 80 mg Tablet" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["take w/ or w/o food."],
+      "contraindication": [" Hypersensitivity. Biliary obstructive disorders. Severe hepatic impairment. Patients w/ DM using aliskiren-containing products or renal impairment (GFR <60 mL/min/1.73 m2). 2nd & 3rd trimesters of pregnancy. Childn & adolescents <18 yrs."],
+      "special_precaution": ["Not to be given in patients w/ cholestasis, biliary obstructive disorders or severe hepatic impairment. Increased risk of severe hypotension & renal insufficiency in patients w/ bilateral renal artery stenosis or stenosis of the artery to a single functioning kidney. Periodic monitoring of K & creatinine serum levels in patients w/ impaired renal function. Intravascular hypovolaemia. Increased risk of hypotension, hyperkalaemia & decreased renal function (including acute renal failure). Frequent close monitoring of renal function, electrolytes & BP if dual blockade therapy is considered & necessary. Patients w/ Congestive Heart Failure or underlying renal disease including renal artery stenosis. Primary aldosteronism. Patients suffering from aortic or mitral stenosis or obstructive hypertrophic cardiomyopathy. Hypoglycaemia. Hyperkalaemia. Black hypertensive patients. Excessive reduction of BP in patients w/ ischemic cardiopathy or cardiovascular disease. Concomitant use w/ salt substitutes containing K, K-sparing diuretics, ACE inhibitors, AIIA, NSAIDs (including selective COX-2 inhibitors), heparin, immunosuppressives (cyclosporin or tacrolimus), & trimethoprim. May affect ability to drive or operating machinery. Not to be initiated during pregnancy. Not recommended during breast-feeding."],
+      "adverse_reaction": ["Anaphylactic reaction, angioedema (rare); acute renal failure."],
+      "interactions": ["Monitor digoxin levels when initiating, adjusting & discontinuing telmisartan. Increased risk of hyperkalaemia w/ salt substitutes containing K, K-sparing diuretics, ACE inhibitors, AIIA, NSAIDs (including selective COX-2 inhibitors), heparin, immunosuppressives (cyclosporin or tacrolimus), & trimethoprim. Not recommended in concomitant use w/ K sparing diuretics or K supplements, lithium. Use w/ caution w/ NSAIDs. May cause vol depletion & risk of hypotension w/ thiazide or loop diuretics. Concomitant use w/ other hypertensive agents may increase BP lowering effect. May potentiate hypotensive effect w/ baclofen, amifostine. Reduced antihypertensive effect w/ corticosteroid (systemic route)."],
+      "presentation_packaging": ["Tablet 40mg x 30's; 80mg x 30's"]
+    },
+
+
+   
+    {
+      "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+      "product_website": "",
+      "slug": "telatraz-plus",
+      "owner": "Natrapharm Products",
+      "category": ["Angiotensin II Receptor Blocker (ARB)"],
+      "medicine_name": "Telatraz® Plus",
+      "brand_name": "Telatraz® Plus",
+      "generic_name": "Telmisartan + Hydrochlorothiazide",
+      "description": "Treatment of essential hypertension in patients with blood pressure inadequately controlled on telmisartan alone.",
+      "image": "/products/fourth_eleven/telatraz-plus.png",
+      "regulatory": "℞",
+      "indication": ["Treatment of essential hypertension in patients with blood pressure inadequately controlled on telmisartan alone."],
+      "dosage_and_administration": ["Patient w/ BP inadequately controlled by telmisartan 40 mg or hydrochlorothiazide, administer40 mg/12.5 mg once daily. Patient w/ BP inadequately controlled by telmisartan 80 mg or by 40 mg/12.5 mg tab, administer 80 mg/12.5 mg once daily. Patient w/ BP inadequately controlled by 80 mg/12.5 mg tab administer 80 mg/25 mg once daily. Patient w/ mild to moderate hepatic impairment Not to exceed 40 mg/12.5 mg once daily."],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/telatraz-plus.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Telmisartan + Hydrochlorothiazide", "dosage": "Per 40 mg/12.5 mg tab Telmisartan 40 mg, hydrochlorothiazide 12.5 mg. Per 80 mg/12.5 mg tab Telmisartan 80 mg, hydrochlorothiazide 12.5 mg. Per 80 mg/25 mg tab Telmisartan 80 mg, hydrochlorothiazide 25 mg." }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Telmisartan and hydrochlorothiazide may be taken with or without food."],
+      "contraindication": ["Hypersensitivity. Cholestasis and biliary obstructive disorders. Severe hepatic and renal (CrCl <30 mL/min) impairment. Refractory hypokalemia, hypercalcemia. Concomitant use with aliskiren in patients with DM or renal impairment (GFR <60 mL/min/1.73 m2). Pregnancy (2nd and 3rd trimester) and lactation."],
+      "special_precaution": ["Patients with cholestasis, biliary obstructive disorder or severe hepatic insufficiency, bilateral renal artery stenosis or stenosis of the artery to single functioning kidney, severe renal impairment (CrCl <30 mL/min), volume and/or sodium depletion. Dual blockade of RAAS. Primary aldosteronism, aortic and mitral valve stenosis, obstructive hypertrophic cardiomyopathy. Metabolic and endocrine effects. Electrolyte imbalance. Galactose intolerance. DM. Acute myopia and secondary angle-closure glaucoma. Non-melanoma skin cancer. Childn. Pregnancy (1st trimester)."],
+      "adverse_reaction": ["Bronchitis, pharyngitis, sinusitis; exacerbation or activation of SLE; hypokalaemia, hyponatraemia, hyperuricaemia; anxiety, depression; dizziness, syncope/faint, paraesthesia, sleep disturbances, insomnia; abnormal & transient blurred vision; vertigo; cardiac arrhythmias, tachycardia; hypotension (including orthostatic hypotension); dyspnoea, resp distress (including pneumonitis & pulmonary oedema); diarrhoea, dry mouth, flatulence, abdominal pain, constipation, dyspepsia vomiting, gastritis; abnormal hepatic function/liver disorder; angiooedema, erythema, pruritus, rash, increased sweating, urticaria; back pain, muscle spasm, myalgia, arthralgia, leg pain & cramps; impotence; chest pain, flu-like symptoms, pain; increased uric acid, creatinine, liver enzymes, blood creatine phosphokinase."],
+      "interactions": ["Lithium, kaliuretic diuretics, laxatives, corticosteroids, ACTH, ampothericin, carbenoxolone, penicillin G sodium, salicylic acid, and derivatives. ACE inhibitors, potassium-sparing diuretics, potassium supplements, salt substitute containing potassium, ciclosporin, and heparin. HCTZ: Digitalis glycosides, digoxin, and other antihypertensive agents, antidiabetic products, cholestyramine and colestipol resins, NSAIDs, norepinephrine, calcium salts, beta-blockers and diazoxide, atropine, biperiden, amantidine, antiarrhythmics, antipsychotic, narcotics, alcohol."],
+      "presentation_packaging": ["Tablet 40 mg/12.5 mg x 30's, 80 mg/12.5 mg x 30's, 80 mg/25 mg x 30's"]
+    },
+    {
+      "id": "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
+      "product_website": "",
+      "slug": "vasalat",
+      "owner": "Patriot Pharmaceuticals Corp. Products",
+      "category": ["Antihypertensive"],
+      "medicine_name": "Vasalat®",
+      "brand_name": "Vasalat®",
+      "generic_name": "Amlodipine",
+      "description": "Management of Hypertension & prophylaxis of angina.",
+      "image": "/products/fourth_eleven/vasalat.png",
+      "regulatory": "℞",
+      "indication": ["Management of Hypertension & prophylaxis of angina.."],
+      "dosage_and_administration": ["Adult Usual dose: 5-10 mg once daily. Elderly & patient w/ hepatic function impairment Initially 2.5 mg. Angina Initially 5 mg. Childn 6-17 yr 2.5-5 mg once daily."],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/vasalat.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Valsartan", "dosage": "5mg, 10mg tablet" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Taken with or without food"],
+      "contraindication": [],
+      "special_precaution": ["Hypersensitivity. Aortic stenosis;Congestive Heart Failure (CHF). Monitor BP, ECG readings, heart rate; reduced frequency or severity of anginal attacks; decreased nitrate consumption. Gingival hyperplasia. W/drawal prior to surgery. Increased angina &/or MI rarely in patients w/ severe obstructive Coronary Artery Disease (CAD). Concomitant use w/ SL nitroglycerin, long-acting nitrates, β-blockers or other anti-anginal agents. Hepatic impairment. May prolong labor duration. Pregnancy & lactation. Childn. Elderly."],
+      "adverse_reaction": ["Headache, edema, dizziness, flushing, palpitations; fatigue, nausea, abdominal pain, somnolence; muscle cramps, pruritus, rash."],
+      "interactions": ["Additive hypotension w/ anesth & hydrocarbon inhalation; β-adrenergic blocking agents. Reduced antihypertensive effects w/ NSAIDs (indomethacin) & sympathomimetics. Increase BP due to induced fluid retention w/ estrogen. Changes in serum conc of free unbound medications w/ highly-protein bound medications (anticoagulants, coumarin & indandione derivatives, anticonvulsants, hydantoin, NSAIDs, quinine, salicylates, sulfinpyrazone). Potentiated antihypertensive effects w/ hypotension-producing medications. Neurotoxicity w/ lithium."],
+      "presentation_packaging": ["Tab 5 mg x 30's , 100's. 10 mg x 30's , 100's."]
+    },
+    {
+      "id": "3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f",
+      "product_website": "",
+      "slug": "velmetia",
+      "owner": "Natrapharm Products",
+      "category": ["Antidiabetic"],
+      "medicine_name": "Velmetia®",
+      "brand_name": "Velmetia®",
+      "generic_name": "Sitagliptin, Metformin HCl",
+      "description": " Initial therapy in Type 2 DM to improve glycemic control when diet & exercise alone do not provide adequate glycemic control, or inadequately controlled w/ metformin or sitagliptin alone or in patients being treated w/ combination of metformin & sitagliptin. As part of triple combination therapy w/ a sulfonylurea as an adjunct to diet & exercise in patients w/ type 2 DM inadequately controlled w/ any 2 of the 3 agents: metformin, sitagliptin, or a sulfonylurea. As part of triple combination therapy w/ PPAR-γ agonist as an adjunct to diet & exercise in patients w/ type 2 DM inadequately controlled w/ any 2 of the 3 agents: metformin, sitagliptin, or a PPAR-γ agonist. Type 2 DM as an adjunct to diet & exercise to improve glycemic control in combination w/ insulin.",
+      "image": "/products/fourth_eleven/velmetia.png",
+      "regulatory": "℞",
+      "indication": [" Initial therapy in Type 2 DM to improve glycemic control when diet & exercise alone do not provide adequate glycemic control, or inadequately controlled w/ metformin or sitagliptin alone or in patients being treated w/ combination of metformin & sitagliptin. As part of triple combination therapy w/ a sulfonylurea as an adjunct to diet & exercise in patients w/ type 2 DM inadequately controlled w/ any 2 of the 3 agents: metformin, sitagliptin, or a sulfonylurea. As part of triple combination therapy w/ PPAR-γ agonist as an adjunct to diet & exercise in patients w/ type 2 DM inadequately controlled w/ any 2 of the 3 agents: metformin, sitagliptin, or a PPAR-γ agonist. Type 2 DM as an adjunct to diet & exercise to improve glycemic control in combination w/ insulin."],
+      "dosage_and_administration": ["Individualized dosing. Initial therapy:For Patient with type 2 diabetes mellitus starting dose 50 mg/500 mg bid. May be titrated up to 50 mg/1 g twice daily. Patient inadequately controlled on metformin monotherapy Sitagliptin 50 mg twice daily +dose of metformin already taken. Patient inadequately controlled on sitagliptin monotherapy , usual starting dose of 50 mg/500 mg tab twice daily. May be titrated up to 50 mg/1 g tab bid. Patient inadequately controlled on dual combination therapy w/ any 2 of the following 3 antihyperglycemic agents: Sitagliptin, metformin or a PPAR-γ agonist (ie thiazolidinediones) Sitagliptin 50 mg bid (100 mg total daily dose). In determining the starter dose of the metformin component, the patient's level of glycemic control & current dose (if any) of metformin should be considered. Gradual dose escalation to reduce GI effects associated w/ metformin should be considered. Patient switching from sitagliptin co-administered w/ metformin Initiate w/ dose of sitagliptin & metformin already being taken. Patient inadequately controlled on dual combination therapy w/ any 2 of the following 3 antihyperglycemic agents: Sitagliptin, metformin or sulfonylurea Sitagliptin 50 mg twice daily (100 mg total daily dose) + metformin dose based on glycemic control level. Patients currently on or initiating sulfonylurea may require lower doses of sulfonylurea doses to reduce the risk of sulfonylurea-induced hypoglycemia. Gradual dose escalation to reduce GI effects associated w/ metformin should be considered. Patient inadequately controlled on dual combination therapy w/ any 2 of the following 3 antihyperglycemic agents: Sitagliptin, metformin or insulin Sitagliptin dose at 50 mg twice daily + metformin dose based on glycemic control level & current dose (if any) of metformin. Gradual dose escalation to reduce GI effects associated w/ metformin should be considered. Patients currently on or initiating insulin therapy may require lower doses of insulin to reduce the risk of hypoglycemia."],
+      "formulation": [
+        {
+          "logo": "/products/third_tfourth_elevenwelve/velmetia.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Sitagliptin, Metformin HCl", "dosage": "Per 50 mg/500 mg FC tab Sitagliptin phosphate monohydrate 64.25 mg (equiv to sitagliptin 50 mg as free base), metformin HCl 500 mg. Per 50 mg/1 g FC tab Sitagliptin phosphate monohydrate 64.25 mg (equiv to sitagliptin 50 mg as free base), metformin HCl 1 g" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["To take with food;"],
+      "contraindication": ["Hypersensitivity to sitagliptin phosphate, metformin hydrochloride or any other component of SITAGLIPTIN + METFORMIN HCl. Acute or chronic metabolic acidosis, including diabetic ketoacidosis, with or without coma. Discontinue in patients undergoing radiologic studies involving intravascular administration of iodinated contrast materials, because the use of such products may result in acute alteration of renal function. Severe renal impairment, (eGFR < 30 mL/min/1.73 m2). Pregnancy and lactation."],
+      "special_precaution": ["Do not use in type 1 diabetes or treatment of diabetic ketoacidosis. Inform patients of the characteristic symptom of acute pancreatitis. Assess renal function before initiation of therapy & at least annually thereafter. Hypoglycemia in combination w/ sulfonylurea or insulin. Temporarily discontinue therapy at the time or prior the procedure & w/held 48 hr in patients who will be administered w/ intra-arterial iodinated contrast, w/ an eGFR ≥30-60 mL/min/1.73 m2, history of hepatic impairment,alcoholism, heart failure. Hypoxic states. Suspend therapy prior to surgical procedure until resumption of oral intake. Avoid excessive alcohol intake. Impaired hepatic function. Monitor vit B12 levels. Change in clinical status of patients w/ previously controlled type 2 diabetes. Loss of glycemic control may occur. Sitagliptin: Hypersensitivity. Discontinue if bullous pemphigoid is suspected. Metformin: Lactic acidosis. W/held in any condition associated w/ hypoxemia, dehydration or sepsis. Hypoglycemic effects in elderly, debilitated or malnourished patients, & those w/ adrenal or pituitary insufficiency or alcohol intoxication. Concomitant use of medications that may affect renal function. Children less than 18 yr. Elderly."],
+      "adverse_reaction": ["Combination therapy w/ sitagliptin & metformin: Diarrhea, nausea, dyspepsia, flatulence, vomiting, headache, hypoglycemia; abdominal pain. Sitagliptin in combination w/ metformin & a sulfonylurea: Hypoglycemia & constipation. Sitagliptin in combination w/ metformin & a PPARγ agonist: Headache, diarrhea, nausea, hypoglycemia, vomiting; upper resp tract infection, cough, fungal skin infection, peripheral edema, vomiting. Sitagliptin in combination w/ metformin & insulin: hypoglycemia, vomiting."],
+      "interactions": [" May lead to loss of glycemic control with drugs tend to produce hyperglycemia example thiazides and other diuretics, corticosteroids, phenothiazines, thyroid products,estrogens, oralcorticosteroids, phenytoin, nicotinic acid, sympathomimetics, Ca channel blocking drugs and Isoniazid. Sitagliptin: Increased AUC & Cmax w/ cyclosporine (a potent probe inhibitor of p-glycoprotein). Metformin HCl: Increased plasma & blood Cmax & blood AUC w/ furosemide. Increased plasma Cmax & AUC & increased amount excreted in the urine w/ nifedipine. Increased systemic exposure & risk for lactic acidosis w/ concomitant use of drugs that interfere w/ common renal tubular transport system (eg, organic cationic transporter-2 [OCT2]/multidrug & toxin extrusion [MATE] inhibitors eg, ranolazine, vandetanib, dolutegravir & cimetidine)."],
+      "presentation_packaging": ["50 mg/500 mg FC tab 28's & 50 mg/1 g FC tab 28's ."]
+    },
+    {
+      "id": "4d5e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f8a",
+      "product_website": "",
+      "slug": "xelevia",
+      "owner": "",
+      "category": ["Diabetes / Antihyperglycemic"],
+      "medicine_name": "Xelevia®",
+      "brand_name": "Xelevia®",
+      "generic_name": "Sitagliptin phosphate",
+      "description": "Adjunct to diet & exercise to improve glycemic control in patients w/ type 2 DM.",
+      "image": "/products/fourth_eleven/xelevia.png",
+      "regulatory": "℞",
+      "indication": ["Adjunct to diet & exercise to improve glycemic control in patients w/ type 2 DM. In combination w/ PPAR-γ agonist (eg, thiazolidinediones) or metformin as initial therapy or when the single agent alone, w/ diet & exercise do not improve adequate glycemic control. Combination therapy w/ a sulfonylurea in patients w/ type 2 DM to improve glycemic control when treatment w/ single agent alone, w/ diet & exercise do not provide adequate glycemic control. In combination w/ metformin & sulfonylurea, metformin & PPAR-γ agonists (eg, thiazolidinediones) when dual therapy w/ these agents does not provide adequate glycemic control. Adjunct to diet & exercise to improve glycemic control in combination w/ insulin (w/ or w/o metformin)."],
+      "dosage_and_administration": ["100 mg once daily as monotherapy or combination therapy w/ metformin, sulfonylurea, insulin (w/ or w/o metformin), PPAR-γ agonist, metformin + sulfonylurea or metformin + PPAR-γ agonist. Patients with moderate renal impairment, 50 mg once daily. Severe renal impairment with end-stage renal disease ,including those requiring hemodialysis or peritoneal dialysis, 25 mg once daily, maybe administered without regard to the timing of dialysis."],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/xelevia.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Sitagliptin phosphate", "dosage": "Each film-coated 50 mg tablet contains 64.25 mg sitagliptin, which is equivalent to 50 mg of free base; Each film-coated 100 mg tablet contains 128.5 mg sitagliptin, which is equivalent to 100 mg of free base" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["take w/ or w/o food."],
+      "contraindication": ["Hypersensitivity"],
+      "special_precaution": ["Not to be used in patients with type 1 diabetes or for the treatment of diabetic ketoacidosis .Acute pancreatitis ,including fatal and non-fatal hemorrhagic or necrotizing pancreatitis. Lower dosages are recommended in patients with eGFR <45 mL/min/1.73 m2, as well as in ESRD patient requiring hemodialysis or peritoneal dialysis. Hypoglycemia in combination with sulfonylurea or with insulin. Renal impairment. Pregnancy & lactation.Childre (10-17 yr.)"],
+      "adverse_reaction": ["Allergic Reactions. Headache, diarrhea; vomiting. In combination with metformin: Indigestion, flatulence. In combination with pioglitazone; Decreased blood sugar with out symptoms of hypoglycemia. In combination with metformin and rosiglitazone: Hypoglycemia, upper respiratory infection, nausea, cough, fungal skin infection, swelling of the hands or legs. Hypersensitivity reactions including anaphylaxis, angioedema,rash, uticaria, cutaneous vasculitis & exfoliative skin conditions including Stevens-Johnson syndrome."],
+      "interactions": [],
+      "presentation_packaging": ["Film coated tab 50 mg x 28's. 100 mg x 28's ."]
+    },
+    {
+      "id": "5d6e7f8a-9b0c-4d5e-6f7a-8b9c0d1e2f3a",
+      "product_website": "",
+      "slug": "zcure",
+      "owner": "Natrapharm Products",
+      "category": ["Antituberculosis"],
+      "medicine_name": "Zcure® / Zcure® Forte",
+      "brand_name": "Zcure® / Zcure® Forte",
+      "generic_name": "Pyrazinamide",
+      "description": "As part of multidrug regimen for all forms of pulmonary & extrapulmonary TB.",
+      "image": "/products/fourth_eleven/zcure.png",
+      "regulatory": "℞",
+      "indication": ["As part of multidrug regimen for all forms of pulmonary & extrapulmonary TB."],
+      "dosage_and_administration": ["Adult & childn 35 mg/kg daily, max daily dose of 3 g or 50 mg/kg 3x a wk or 75 mg/kg twice wkly. Partial intermittent therapy: Administer w/ INH & rifampicin daily for the 1st 2 mth. Afterwards, treatment w/ INH & rifampicin will continue for the next 4 month."],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/zcure.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Pyrazinamide", "dosage": "250mg/5mL; 500mg/5mL suspension" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Taken with food"],
+      "contraindication": ["Liver damage"],
+      "special_precaution": ["Impaired renal function or a history of gout. DM. Pregnancy & lactation."],
+      "adverse_reaction": ["Liver toxicity. Anorexia, nausea, vomiting, arthralgia, malaise, fever, sideroblastic anemia & dysuria. Rare photosensitivity & skin rashes."],
+      "interactions": [],
+      "presentation_packaging": ["Oral suspension Z-cure 250 mg/5 mL x 120 mL. Oral suspension Z-cure Forte 500 mg/5 mL x 120 mL."]
+    },
+    {
+      "id": "6d7e8f9a-0b1c-4d5e-6f7a-8b9c0d1e2f3a",
+      "product_website": "",
+      "slug": "zimerz",
+      "owner": "Patriot Pharmaceuticals Corp. Products",
+      "category": ["Anti-Parkinson"],
+      "medicine_name": "Zimerz®",
+      "brand_name": "Zimerz®",
+      "generic_name": "Memantine HCl",
+      "description": "Alzheimer's disease (moderate to severe w/ or w/o dementia) & Parkinson's disease w/ dementia",
+      "image": "/products/fourth_eleven/zimerz.png",
+      "regulatory": "℞",
+      "indication": ["Alzheimer's disease (moderate to severe w/ or w/o dementia) & Parkinson's disease w/ dementia"],
+      "dosage_and_administration": ["5 mg daily in the morning for the 1st wk, increased wkly at 5-mg increments to a max dose of 20 mg daily. Dose ≥10 mg should be taken in 2 divided doses."],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/zimerz.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Memantine HCl", "dosage": " 10mg tablet" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Taken with or without food"],
+      "contraindication": ["Hypersensitivity"],
+      "special_precaution": ["Close monitoring in patients w/ recent MI, uncompensated CHF & uncontrolled HTN. Patients at risk of convulsions; conditions that increase urinary pH (eg, drastic changes in diet, renal tubular acidosis, severe UTI). Seizures may occur rarely. Renal impairment. Pregnancy & lactation. Childn."],
+      "adverse_reaction": ["onstipation, dizziness, headache, somnolence. Anxiety, hallucinations, confusion, abnormal gait, hypertonia, vomiting, cystitis, increased libido."],
+      "interactions": ["May increase incidence & severity of adverse effects w/ amantadine, ketamine or dextromethorphan. Enhanced effects of dopaminergics & antimuscarinics. May reduce actions of barbiturates & antipsychotics. May alter effects of antispasmodics, baclofen & dantrolene. Reduced clearance w/ carbonic anhydrase inhibitors & Na bicarbonate."],
+      "presentation_packaging": ["Film coated tablet 10 mg x 100's."]
+    },
+    {
+      "id": "7d8e9f0a-1b2c-4d5e-6f7a-8b9c0d1e2f3a",
+      "product_website": "",
+      "slug": "zip-c",
+      "owner": "Natrapharm Products",
+      "category": ["Vitamins/Mineral"],
+      "medicine_name": "Zip‑C",
+      "brand_name": "Zip‑C",
+      "generic_name": "Ascorbic Acid + Zinc",
+      "description": "Indicated for the treatment and prevention of Vitamin C and Zinc deficiencies.",
+      "image": "/products/fourth_eleven/zip-c.png",
+      "regulatory": "℞",
+      "indication": ["Indicated for the treatment and prevention of Vitamin C and Zinc deficiencies."],
+      "dosage_and_administration": ["1 capsule daily or as prescribed by a physician."],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/zip-c.png",
+          "note": "Each tablet contains:",
+          "components": [
+            { "name": "Ascorbic Acid + Zinc", "dosage": "Ascorbic acid (equivalent to 562.43mg Sodium Ascorbate) 500mg + Zinc (equivalent to 70.00mg Zinc Gluconate) 10mg" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": [],
+      "contraindication": [],
+      "special_precaution": ["If you are allergic to any component in the product do not take this medicine.."],
+      "adverse_reaction": ["Vitamin C is usually tolerated. However, nausea, vomiting, heartburn, abdominal cramps, fatigue, flushing, insomnia, and sleepiness have been reported with high doses of vitamin C, particularly ascorbic acid (i.e., 1 g or more daily). Zinc Gastrointestinal side effects such as nausea and vomiting are seen with doses of elemental zinc greater than 40 mg."],
+      "interactions": ["The amount of nutrients in the product is not expected to interact with food or medicines."],
+      "presentation_packaging": ["Capsule 500mg/10 x 30's"]
+    },
+    {
+      "id": "8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+      "product_website": "",
+      "slug": "zobrixol",
+      "owner": "Natrapharm Products",
+      "category": ["Antacid / Gastrointestinal"],
+      "medicine_name": "Zobrixol®",
+      "brand_name": "Zobrixol®",
+      "generic_name": "Ambroxol HCI",
+      "description": "This medicine is used for the relief of cough caused by acute and chronic disorder of the respiratory tract accompanied with thick and sticky mucus such as acute and chronic bronchitis, asthmatoid bronchitis and bronchial asthma.",
+      "image": "/products/fourth_eleven/zobrixol.png",
+      "regulatory": "℞",
+      "indication": ["This medicine is used for the relief of cough caused by acute and chronic disorder of the respiratory tract accompanied with thick and sticky mucus such as acute and chronic bronchitis, asthmatoid bronchitis and bronchial asthma."],
+      "dosage_and_administration": ["Tablet (30mg) Children 6-12 yrs: 1⁄2 tablet 2-3 times daily Adults & children over 12 years: 1 tablet thrice a day for the first 2-3 days and then 1 tablet twice daily or 1⁄2 tablet thrice daily. Double Strength (DS) syrup (30mg/5mL) SR cap Adult & Children > 12 yr 1 cap once daily. Children 6-12 years: 2.5mL 2-3 times a day. Adults & children over 12 years: 5mL thrice a day for 2-3 days, then 5mL twice daily or 2.5mL thrice a day. Syrup (15mg/5mL) Children under 2 years: 2.5mL twice a day Children 2-5 years: 2.5mL thrice a day Children 6-12 years: 5mL 2-3 times a day Adults & children over 12 years: 10mL thrice daily during the first 2-3 days, then 10mL twice daily or 5mL thrice daily. Syrup Oral drops (6mg/mL) Children 6 months and under: 0.5mL twice a day Children 7-12 months: 1mL twice a day Children 13-24 months: 1.25mL twice a day"],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/zobrixol.png",
+          "note": "Each capsule contains:",
+          "components": [
+            { "name": "Ambroxol HCI", "dosage": "30mg/5mL (Syrup); 15mg/5mL (Syrup); 6mg/mL (Syrup Oral Drops); 30 mg (tablet) & 75mg SR (Capsule)" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": [],
+      "contraindication": ["If you are allergic to any component in the product."],
+      "special_precaution": ["Do not take more than the recommended dose. Consult a physician if any adverse effect occurs. Not recommended during the first three month of pregnancy. Do not use after expiry date."],
+      "adverse_reaction": ["Ambroxol is generally well tolerated. Gastro-intestinal disturbances (diarrhea, nausea, vomiting), transient rise in serum aminotransferase. In rare cases weakness, headache and skin rash."],
+      "interactions": [],
+      "presentation_packaging": []
+    },
+    {
+      "id": "9d0e1f2a-3b4c-4d5e-6f7a-8b9c0d1e2f3a",
+      "product_website": "",
+      "slug": "zolevi",
+      "owner": "Natrapharm Products",
+      "category": ["Antiepileptic"],
+      "medicine_name": "Zolevi",
+      "brand_name": "Zolevi",
+      "generic_name": "Levetiracetam",
+      "description": "Partial onset seizures w/ or w/o secondary generalisation in adults & adolescents 16 yr w/ newly diagnosed epilepsy. Adjunctive therapy in the treatment of partial onset seizures w/ or w/o secondary generalisation in adults, adolescents, childn & infants from 1 mth w/ epilepsy; myoclonic seizures in adults & juvenile myoclonic seizures in adolescents from 12 yrs; primary generalised tonic-clonic seizures in adults & idiopathic generalised epilepsy in adolescents from 12 yr.",
+      "image": "/products/fourth_eleven/zolevi.png",
+      "regulatory": "℞",
+      "indication": ["Partial onset seizures w/ or w/o secondary generalisation in adults & adolescents 16 yr w/ newly diagnosed epilepsy. Adjunctive therapy in the treatment of partial onset seizures w/ or w/o secondary generalisation in adults, adolescents, childn & infants from 1 mth w/ epilepsy; myoclonic seizures in adults & juvenile myoclonic seizures in adolescents from 12 yrs; primary generalised tonic-clonic seizures in adults & idiopathic generalised epilepsy in adolescents from 12 yr."],
+      "dosage_and_administration": ["Monotherapy for adult & adolescent from 16 yr Initially 250 mg bid, increased to 500 mg bid after 2 weeks, dose can be further increased by 250 mg bid every 2 weeks depending on the clinical response. Max: 1,500 mg bid. Add-on therapy for adult (≥18 yrs) & adolescent (12-17 yrs) weighing ≥50 kg Initially 500 mg bid in the 1st day of treatment. Dose may be increased to 1,500 mg bid. Dose may be increase or decrease to 500 mg bid every 2-4 wk. Childn & adolescent ≥50 kg Adult dose, 25 kg 250 mg bid. Max: 750 mg bid."],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/zolevi.png",
+          "note": "Each capsule contains:",
+          "components": [
+            { "name": "Levetiracetam", "dosage": "250mg; 500mg; 1g Film Coated Tablet" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["take w/ or w/o food."],
+      "contraindication": ["Hypersensitivity to levetiracetam or other pyrrolidone derivatives."],
+      "special_precaution": ["Neutropenia, agranulocytosis, leukopenia, thrombocytopenia & pancytopenia. Increased risk of suicidal thoughts & behaviour; monitor for signs of depression &/or suicidal ideation & behaviour. Renal impairment. Acute kidney injury. Minor or moderate influence on the ability to drive & machines. Pregnancy & lactation. Not adapted for use in infants & childn <6 yr."],
+      "adverse_reaction": ["Nasopharyngitis, somnolence, headache, fatigue & dizziness. Anorexia; depression, hostility/aggression, anxiety, insomnia, nervousness/irritability; convulsion, balance disorder, lethargy, tremor; vertigo; cough; abdominal pain, diarrhoea, dyspepsia, vomiting, nausea; rash."],
+      "interactions": ["Decrease methotrexate clearance resulting in increased/prolonged blood methotrexate concentration to potentially toxic levels. Decreased efficacy w/ macrogol."],
+      "presentation_packaging": ["Film Coated Tablet 250 mg x 60's ; 500 mg x 60's; 1 g x 60's"]
+    },
+    {
+      "id": "ad1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+      "product_website": "",
+      "slug": "zoltax",
+      "owner": "Natrapharm Products",
+      "category": ["Antibacterial"],
+      "medicine_name": "Zoltax® Oral / Zoltax® Vial",
+      "brand_name": "Zoltax®",
+      "generic_name": " Cefuroxime (tab: axetil; inj: Na)",
+      "description": "Treatment of infections caused by susceptible organisms eg, bone & joint infections, bronchitis, gonorrhea, meningitis, otitis media, peritonitis, pharyngitis, sinusitis, skin & soft tissue infections, UTI & for surgical infection prophylaxis.",
+      "image": "/products/fourth_eleven/zoltax.png",
+      "regulatory": "℞",
+      "indication": ["Treatment of infections caused by susceptible organisms eg, bone & joint infections, bronchitis, gonorrhea, meningitis, otitis media, peritonitis, pharyngitis, sinusitis, skin & soft tissue infections, UTI & for surgical infection prophylaxis."],
+      "dosage_and_administration": ["Zoltax Adult Uncomplicated UTI 125 mg bid. Resp tract infections 250-500 mg bid. Pneumonia or acute exacerbations of chronic bronchitis 1.5 g bid or 750 mg parenteral dose bid followed by 500 mg tab bid. Lyme disease 500 mg bid for 20 days. Uncomplicated gonorrhea Single 1 g oral dose & 1 g probenecid. Zoltax Injection Usual dose: 750 mg to 1.5 g 8 hrly for 5-10 days. Uncomplicated UTI & pneumonia, skin & skin structure infection, disseminated gonococcal infection 750 mg 8 hrly. Severe or complicated infections, bone & joint infections 1.5 g 8 hrly. Bacterial meningitis Dose should not be >3 g 8 hrly. Pre-op prophylaxis 1.5 g dose IV before surgery or at anesth induction (then 12 hrly for a total of 6 g)."],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/zoltax.png",
+          "note": "Each vial or tablet contains:",
+          "components": [
+            { "name": "Cefuroxime", "dosage": "500mg tablet; 750mg IV" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": ["Taken with or without food"],
+      "contraindication": ["Hypersensitivity to cephalosporins"],
+      "special_precaution": ["Renal impairment. Monitor renal function periodically. May impair ability to drive or operate machinery. Pregnancy & lactation. Childn < 6 yr. Elderly ≥65 yr."],
+      "adverse_reaction": ["Diarrhea, nausea, vomiting, erythema multiforme, Stevens-Johnson syndrome, toxic epidermal necrolysis."],
+      "interactions": ["Probenecid, oral estrogen/progesterone contraceptives."],
+      "presentation_packaging": ["Zoltax Film coated tablet 500 mg x 48's . Zoltax Injection powd for inj (vial) 750 mg x 1's ."]
+    },
+    {
+      "id": "bd1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e",
+      "product_website": "",
+      "slug": "zynapse",
+      "owner": "Natrapharm Products",
+      "category": ["Psychostimulant/Nootropic"],
+      "medicine_name": "Citicoline",
+      "brand_name": "Citicoline",
+      "generic_name": "Zynapse®",
+      "description": "Cerebrovascular diseases, in acute recovery phase, in signs & symptoms of cerebral vascular insufficiency & in cranial traumatism & their sequelae",
+      "image": "/products/fourth_eleven/citicoline.png",
+      "regulatory": "℞",
+      "indication": ["Cerebrovascular diseases, in acute recovery phase, in signs & symptoms of cerebral vascular insufficiency & in cranial traumatism & their sequelae"],
+      "dosage_and_administration": ["Zynapse 500 1-2 inj daily. Zynapse 1000 1 inj daily. Administer IM or IV (3-5 min) & in IV drop perfusion (dripping speed 40-60 drops/min). Zynapse Oral Cap/Tab 1 cap/tab once or bid. Adult oral drops 1-2 mL bid-tid."],
+      "formulation": [
+        {
+          "logo": "/products/fourth_eleven/zynapse.png",
+          "note": "Each formulation contains:",
+          "components": [
+            { "name": "Gabapentin", "dosage": "1000 mg Ampoule / 500 mg Capsule / 1 g Tablet / Drops" }
+          ]
+        }
+      ],
+      "pharmacodynamics": [],
+      "pharmacokinetics": [],
+      "precaution": [],
+      "warning": [],
+      "administration": [],
+      "contraindication": ["Hypertonia of the parasympathetic."],
+      "special_precaution": ["n persistent intracranial hemorrhage administer very slowly (30 drops/min). Pregnancy & lactation."],
+      "adverse_reaction": ["Increased parasympathetic effects, fleeting & discrete hypotensor effect."],
+      "interactions": ["Meclofenoxate, L-dopa."],
+      "presentation_packaging": ["Zynapse 500 inj (amp) 125 mg/mL x 4 mL x 5's . Zynapse 1000 inj (amp) 250 mg/mL x 4 mL x 5's . Zynapse Oral cap 500 mg box of 24’s, Zynapse Oral adult oral drops 100 mg/mL, Zynapse Oral tab 1 g box of 24’s"]
     }
+
+
+    
   ]
   
   

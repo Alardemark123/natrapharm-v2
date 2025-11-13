@@ -14,8 +14,8 @@ const navLinks = [
   {
     name: 'Services',
     dropdown: [
-      { name: 'Business Services', path: '/services/business' },
-      { name: 'Natrapharm HIP', path: '/services/hip' },
+      { name: 'Business Services', path: '/services/business_services' },
+      { name: 'Natrapharm HIP', path: '/services/natrapharm_hip' },
     ],
   },
   { name: 'Careers', path: '/careers' },

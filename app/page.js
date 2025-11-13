@@ -85,6 +85,12 @@ export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const [visibleItems, setVisibleItems] = useState(3);
+  const [showModal, setShowModal] = useState(false);
+  const handleConfirm = () => {
+    // Open external link
+    window.open("https://natrapharm.hips-md.com/findoctorv2/", "_blank");
+    setShowModal(false);
+  };
 
 
   const extendedCarousel = [...carouselItems, ...carouselItems]; // duplicate
@@ -211,15 +217,36 @@ export default function Home() {
           </p>
 
           {/* Signup Button - Centered & Smaller Font */}
-          <Link href="/HIP">
-            <button className="group inline-flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-full font-semibold text-sm hover:bg-red-700 transition-all duration-300 hover:scale-105 shadow-xl">
-              Signup for free
-              <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-            </button>
-          </Link>
+          <button onClick={() => setShowModal(true)} className="group inline-flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-full font-semibold text-sm hover:bg-red-700 transition-all duration-300 hover:scale-105 shadow-xl">
+            Signup for free
+            <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+          </button>
         </div>
 
-
+        {showModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+          <div className="bg-white rounded-2xl p-8 max-w-sm w-full text-center shadow-lg">
+            <h3 className="text-xl font-bold text-black mb-4">Are you sure?</h3>
+            <p className="text-gray-600 mb-6">
+              Are you sure you want to leave the Natrapharm website?
+            </p>
+            <div className="flex justify-center gap-4">
+              <button
+                onClick={handleConfirm}
+                className="bg-[#e12328] text-white py-2 px-6 rounded-xl font-medium hover:bg-red-700 transition"
+              >
+                Go to Website
+              </button>
+              <button
+                onClick={() => setShowModal(false)}
+                className="bg-gray-200 text-gray-700 py-2 px-6 rounded-xl font-medium hover:bg-gray-300 transition"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
        {/* Right Side - 3 Column Carousel */}
 <div className="relative w-full flex flex-col items-center lg:col-span-8">

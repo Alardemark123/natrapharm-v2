@@ -69,7 +69,7 @@ export default function Footer() {
 
           {/* Company Links */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Company</h3>
+            <h3 className="font-sans text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-3">
               {footerLinks.company.map((link, idx) => (
                 <li key={link.path + idx}>
@@ -85,7 +85,7 @@ export default function Footer() {
 
           {/* Support Links */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Support</h3>
+            <h3 className="font-sans text-lg font-semibold mb-4">Support</h3>
             <ul className="space-y-3">
               {footerLinks.support.map((link, idx) => (
                 <li key={link.path + idx}>
@@ -101,7 +101,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Contact</h3>
+            <h3 className="font-sans text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-gray-600">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
